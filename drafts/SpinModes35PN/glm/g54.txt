@@ -1,0 +1,4 @@
+\begin{align}
+\left(5 \nu ^2-5 \nu +1\right)\left(g_{54}\right)_{S}=& v\Bigg[\Bigg.\left(3 \nu -6 \nu ^2\right) \chi _s+-3 \delta  \nu  \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{3}\Bigg[\Bigg.\left(\frac{509 \nu ^3}{39}+\frac{1111 \nu ^2}{26}-\frac{727 \nu }{39}-\frac{2}{3}\right) \chi _s+\delta  \left(-\frac{1907 \nu ^2}{78}+\frac{1234 \nu }{39}-\frac{2}{3}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+\end{align}

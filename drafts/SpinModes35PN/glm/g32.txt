@@ -1,0 +1,8 @@
+\begin{align}
+\left(1-3 \nu\right)\left(g_{32}\right)_{S}=& v\Bigg[\Bigg.\chi _s\Bigg.\Bigg]\nonumber\\
+& +v^{3}\Bigg[\Bigg.\left(-\frac{13 \nu ^2}{3}-\frac{56 \nu }{3}+\frac{2}{3}\right) \chi _s+\delta  \left(\frac{13 \nu }{3}+\frac{2}{3}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.\left(4 i-\frac{16 i \nu }{3}\right) \chi _s+4 i \delta  \chi _a+\left(-48 \nu ^3+44 \nu ^2-8 \nu +2\right) \chi _s^2\nonumber\\
+ &+\delta  \left(24 \nu ^2-16 \nu +4\right) \chi _a \chi _s+\left(24 \nu ^2-16 \nu +2\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+& +v^{5}\Bigg[\Bigg.\left(-\frac{45671 \nu ^3}{5940}-\frac{75047 \nu ^2}{3960}+\frac{517991 \nu }{11880}-\frac{1148}{135}\right) \chi _s+\delta  \left(-\frac{58177 \nu ^2}{11880}+\frac{13441 \nu }{11880}-\frac{1148}{135}\right) \chi _a\nonumber\\
+ &+\left(64 \nu ^3-32 \nu ^2+4 \nu \right) \chi _s^3+\delta  \left(8 \nu -32 \nu ^2\right) \chi _a \chi _s^2+\left(4 \nu -16 \nu ^2\right) \chi _a^2 \chi _s\Bigg.\Bigg]\nonumber\\
+\end{align}

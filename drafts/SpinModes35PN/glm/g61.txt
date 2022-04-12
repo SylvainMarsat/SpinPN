@@ -1,0 +1,3 @@
+\begin{align}
+\delta  \left(3 \nu ^2-4 \nu +1\right)\left(g_{61}\right)_{S}=& v\Bigg[\Bigg.\delta  \left(\frac{7 \nu }{2}-\frac{7 \nu ^2}{2}\right) \chi _s+\left(\frac{21 \nu ^2}{2}-\frac{7 \nu }{2}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+\end{align}

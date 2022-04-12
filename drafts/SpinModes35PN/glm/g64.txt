@@ -1,0 +1,3 @@
+\begin{align}
+\left(5 \nu ^2-5 \nu +1\right)\left(g_{64}\right)_{S}=& v^{3}\Bigg[\Bigg.\left(\frac{300 \nu ^3}{7}-\frac{460 \nu ^2}{7}+\frac{206 \nu }{7}-4\right) \chi _s+\delta  \left(-\frac{120 \nu ^2}{7}+\frac{130 \nu }{7}-4\right) \chi _a\Bigg.\Bigg]\nonumber\\
+\end{align}

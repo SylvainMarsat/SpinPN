@@ -1,0 +1,5 @@
+\begin{align}
+\left(1-3 \nu\right)\left(g_{42}\right)_{S}=& v^{3}\Bigg[\Bigg.\left(-\frac{104 \nu ^2}{5}+\frac{236 \nu }{15}-\frac{8}{3}\right) \chi _s+\delta  \left(\frac{28 \nu }{5}-\frac{8}{3}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.2 \chi _s^2+4 \delta  \chi _a \chi _s+\left(24 \nu ^2-8 \nu +2\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+& +v^{5}\Bigg[\Bigg.\left(-\frac{378 \nu ^3}{55}+\frac{6142 \nu ^2}{165}-\frac{1827 \nu }{55}+\frac{368}{55}\right) \chi _s+\delta  \left(-\frac{1986 \nu ^2}{55}-\frac{81 \nu }{55}+\frac{368}{55}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+\end{align}

@@ -1,0 +1,10 @@
+\begin{align}
+\delta\left(g_{21}\right)_{S}=& v\Bigg[\Bigg.-\frac{3 \delta  \chi _s}{2}+-\frac{3 \chi _a}{2}\Bigg.\Bigg]\nonumber\\
+& +v^{3}\Bigg[\Bigg.\delta  \left(\frac{79 \nu }{84}+\frac{61}{12}\right) \chi _s+\left(\frac{131 \nu }{84}+\frac{61}{12}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.-i \delta  \chi _s+-i \chi _a+\delta  \left(16 \nu ^2-\frac{15 \nu }{2}-2\right) \chi _s^2\nonumber\\
+ &+\left(32 \nu ^2-\frac{11 \nu }{2}-4\right) \chi _a \chi _s+\delta  (-6 \nu -2) \chi _a^2\Bigg.\Bigg]\nonumber\\
+& +v^{5}\Bigg[\Bigg.\delta  \left(\frac{613 \nu ^2}{1008}+\frac{1709 \nu }{1008}-\frac{81}{16}\right) \chi _s+\left(-\frac{703 \nu ^2}{112}+\frac{8797 \nu }{1008}-\frac{81}{16}\right) \chi _a\nonumber\\
+ &+\delta  \left(-24 \nu ^2+12 \nu -\frac{3}{4}\right) \chi _s^3+\left(-72 \nu ^2+30 \nu -\frac{9}{4}\right) \chi _a \chi _s^2+\delta  \left(15 \nu -\frac{9}{4}\right) \chi _a^2 \chi _s+\left(3 \nu -\frac{3}{4}\right) \chi _a^3\Bigg.\Bigg]\nonumber\\
+& +v^{6}\Bigg[\Bigg.\delta  \left(\frac{404 i \nu }{63}+\frac{517 i}{126}\right) \chi _s+\left(\frac{340 i \nu }{63}+\frac{517 i}{126}\right) \chi _a\nonumber\\
+ &+\delta  \left(-\frac{32 \nu ^3}{7}-\frac{84979 \nu ^2}{1008}+\frac{53719 \nu }{1008}+\frac{787}{126}\right) \chi _s^2+\left(-\frac{64 \nu ^3}{7}-\frac{12952 \nu ^2}{63}+\frac{424 \nu }{7}+\frac{787}{63}\right) \chi _a \chi _s+\delta  \left(\frac{43 \nu ^2}{112}+\frac{32521 \nu }{1008}+\frac{787}{126}\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+\end{align}

@@ -1,0 +1,3 @@
+\begin{align}
+\left(5 \nu ^2-5 \nu +1\right)\left(g_{66}\right)_{S}=& v^{3}\Bigg[\Bigg.\left(\frac{220 \nu ^3}{7}-\frac{300 \nu ^2}{7}+\frac{166 \nu }{7}-4\right) \chi _s+\delta  \left(-\frac{200 \nu ^2}{7}+\frac{170 \nu }{7}-4\right) \chi _a\Bigg.\Bigg]\nonumber\\
+\end{align}

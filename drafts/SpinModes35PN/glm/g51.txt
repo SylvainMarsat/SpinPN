@@ -1,0 +1,5 @@
+\begin{align}
+\delta  (1-2 \nu )\left(g_{51}\right)_{S}=& v^{3}\Bigg[\Bigg.\delta  \left(-18 \nu ^2+18 \nu -\frac{10}{3}\right) \chi _s+\left(-\frac{38 \nu ^2}{3}+\frac{46 \nu }{3}-\frac{10}{3}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.\delta  \left(\frac{5}{2}-5 \nu \right) \chi _s^2+\left(-8 \nu ^2-30 \nu +5\right) \chi _a \chi _s\nonumber\\
+ &+\delta  \left(20 \nu ^2-15 \nu +\frac{5}{2}\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+\end{align}

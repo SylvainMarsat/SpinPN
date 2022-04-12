@@ -1,0 +1,6 @@
+\begin{align}
+\delta  (1-2 \nu )\left(g_{41}\right)_{S}=& v\Bigg[\Bigg.\frac{5}{2} \delta  \nu  \chi _s+-\frac{5 \nu  \chi _a}{2}\Bigg.\Bigg]\nonumber\\
+& +v^{3}\Bigg[\Bigg.\delta  \left(-\frac{841 \nu ^2}{132}-\frac{563 \nu }{44}\right) \chi _s+\left(\frac{783 \nu }{44}-\frac{2207 \nu ^2}{132}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.\delta  \left(\frac{11 i}{12}-\frac{5 i \nu }{12}\right) \chi _s+\left(\frac{11 i}{12}-\frac{13 i \nu }{4}\right) \chi _a\nonumber\\
+ &+\delta  \left(-32 \nu ^3+\frac{227 \nu ^2}{6}-\frac{29 \nu }{3}+\frac{5}{2}\right) \chi _s^2+\left(-64 \nu ^3+\frac{425 \nu ^2}{6}-38 \nu +5\right) \chi _a \chi _s+\delta  \left(20 \nu ^2-\frac{55 \nu }{3}+\frac{5}{2}\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+\end{align}

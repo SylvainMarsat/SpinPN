@@ -1,0 +1,9 @@
+\begin{align}
+\left(g_{22}\right)_{S}=& v^{3}\Bigg[\Bigg.\left(\frac{4 \nu }{3}-\frac{4}{3}\right) \chi _s+-\frac{4 \delta  \chi _a}{3}\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.\chi _s^2+2 \delta  \chi _a \chi _s+(1-4 \nu ) \chi _a^2\Bigg.\Bigg]\nonumber\\
+& +v^{5}\Bigg[\Bigg.\left(\frac{88 \nu ^2}{21}+\frac{202 \nu }{63}-\frac{118}{63}\right) \chi _s+\delta  \left(-\frac{16 \nu }{9}-\frac{118}{63}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{6}\Bigg[\Bigg.\left(\frac{52 i \nu }{9}-\frac{40 i}{9}\right) \chi _s+-\frac{40}{9} i \delta  \chi _a+\left(\frac{32 \nu ^2}{3}-\frac{103 \nu }{9}+\frac{79}{126}\right) \chi _s^2\nonumber\\
+ &+\delta  \left(\frac{79}{63}-\frac{88 \nu }{9}\right) \chi _a \chi _s+\left(-\frac{136 \nu ^2}{21}-\frac{53 \nu }{63}+\frac{79}{126}\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+& +v^{7}\Bigg[\Bigg.\left(\frac{79 \nu ^3}{18}-\frac{3881 \nu ^2}{378}+\frac{2165 \nu }{108}+\frac{1562}{189}\right) \chi _s+\delta  \left(\frac{118 \nu ^2}{63}+\frac{19771 \nu }{756}+\frac{1562}{189}\right) \chi _a\nonumber\\
+ &+\frac{7 i \chi _s^2}{3}+\frac{14}{3} i \delta  \chi _a \chi _s+\left(\frac{7 i}{3}-\frac{28 i \nu }{3}\right) \chi _a^2+\frac{8 \nu  \chi _s^3}{3}+\frac{16}{3} \delta  \nu  \chi _a \chi _s^2+\left(\frac{8 \nu }{3}-\frac{32 \nu ^2}{3}\right) \chi _a^2 \chi _s\Bigg.\Bigg]\nonumber\\
+\end{align}

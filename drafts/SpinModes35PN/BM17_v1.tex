@@ -1,0 +1,749 @@
+\documentclass[
+superscriptaddress,
+%twocolumn,
+preprint,
+%onecolumn,
+prd,tightenlines,showpacs,nofootinbib,
+eqsecnum,
+amsfonts,amsmath,amssymb]{revtex4-1}
+%amsfonts,amsmath,amssymb]{revtex4}
+%preprint instead of twocolumn for a one-column paper
+%superscriptaddress for superscripts on names
+
+\usepackage[usenames]{color}
+\usepackage{bm}
+\usepackage{graphicx} 
+\usepackage[colorlinks]{hyperref}
+\usepackage{mathrsfs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+% Required for \toprule, etc... -- cannot be included as an ordinary package because of revtex
+\AtBeginDocument{\usepackage{booktabs}}
+
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links
+    citecolor=cyan,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=darkgreen,           % color of external links
+    linktocpage=true
+}
+
+\newcommand{\bfy}{\mathbf{y}}
+\newcommand{\bfx}{\mathbf{x}}
+\newcommand{\bfn}{\mathbf{n}}
+\newcommand{\bfV}{\mathbf{V}}
+\newcommand{\bfv}{\mathbf{v}}
+\newcommand{\bfa}{\mathbf{a}}
+\newcommand{\bfp}{\mathbf{p}}
+\newcommand{\bfS}{\mathbf{S}}
+\newcommand{\bfSigma}{\mathbf{\Sigma}}
+\newcommand{\ov}[1]{\overline{#1}}
+\newcommand{\undl}[1]{\underline{#1}}
+\newcommand{\ovbf}[1]{\overline{\mathbf{#1}}}
+\newcommand{\ovbm}[1]{\overline{\bm{#1}}}
+\newcommand{\ud}{\mathrm{d}}
+\newcommand{\uD}{\mathrm{D}}
+\newcommand{\ui}{\mathrm{i}}
+\newcommand{\calW}{\mathcal{W}}
+\newcommand{\calO}{\mathcal{O}}
+\newcommand{\calF}{\mathcal{F}}
+\newcommand{\calL}{\mathcal{L}}
+\newcommand{\ph}[1]{\phantom{#1}}
+\newcommand{\vph}[1]{\vphantom{#1}}
+\newcommand{\phfrac}{\vphantom{\frac{1}{2}}}
+\newcommand{\vecnab}{\bm{\nabla}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\cte}{\mathrm{cte}}
+\newcommand{\exch}{1\leftrightarrow 2}
+\newcommand{\nn}{\nonumber}
+
+%\usepackage[showframe, pass]{geometry}
+\usepackage{ulem}
+\normalem
+
+%\newcommand{\blue}{\textcolor{blue}}
+%\newcommand{\green}{\textcolor{green}}
+%\newcommand{\red}{\textcolor{red}}
+%\newcommand{\magenta}{\textcolor{magenta}}
+
+%%%%%%%%%%%%
+% Uncomment the following line to display all labels
+%\usepackage{showkeys}
+%%%%%%%%%%%%
+        
+\allowdisplaybreaks
+% Can use this locally for a given very long equation:
+% {\allowdisplaybreaks \begin{eqnarray} ... \end{eqnarray}}
+% \noindent
+
+\begin{document}
+
+\title{Spin contributions to spherical modes of gravitational radiation for spin-aligned binaries at the 3.5PN order}
+
+\author{Sylvain \textsc{Marsat}}\email{sylvain.marsat@aei.mpg.de}
+\affiliation{Albert Einstein Institut,\\
+Am Muehlenberg 1, 14476 Potsdam-Golm, Germany}
+
+\author{Alejandro \textsc{Boh\'e}}\email{alejandro.bohe@aei.mpg.de}
+\affiliation{Albert Einstein Institut,\\
+Am Muehlenberg 1, 14476 Potsdam-Golm, Germany}
+
+\date{\today}
+
+\begin{abstract}
+We complete the post-Newtonian prediction at 3.5PN order for the spin contributions to the gravitational waveforms emitted by spinning compact binaries, in the case of quasi-circular, non-precessing orbits, where both spins that are aligned with the orbital angular momentum. Using results from the multipolar post-Minkowskian wave generation formalism, we extend previous works that derived the dynamics and gravitational wave energy flux and phasing, by computing the full waveform decomposed in spin-weighted spherical harmonics. This new calculation requires the computation of multipolar moments of higher multipolar order, new quadratic-in-spin contributions to the hereditary tail terms entering at the 3.5PN order, as well as other non-linear interactions between moments. When specialized to the test-mass limit, our results are found to be equivalent to those obtained in the literature for the waveform emitted by a test-mass in equatorial, circular orbits around a Kerr black hole [with discrepancy for the 21 mode].
+\end{abstract}
+
+\pacs{04.25.Nx, 04.25.dg, 04.30.-w, 97.80.-d, 97.60.Jd, 95.30.Sf}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+
+\section{Introduction [to update]}\label{sec:intro}
+
+Coalescing binary systems composed of stellar mass black-holes and/or neutron
+stars are among the most promising sources for a first direct detection of
+gravitational waves (GW) by the network of ground-based interferometers formed
+by GEO-HF~\cite{geo} and the advanced version of the detectors
+LIGO~\cite{ligo} and Virgo~\cite{virgo}, which should resume their science
+runs from 2015, approaching gradually their design sensitivity, expected to be
+better by an order of magnitude than that of the first generation. The
+cryogenic detector KAGRA~\cite{kagra} will join them in a near future. Further
+ahead, the space-based observatory eLISA~\cite{Whitepaper, NGOScience} --- a
+serious proposal for the mission recently announced by the European Space
+Agency --- will allow us to scan a different frequency band where we expect to
+detect, notably, GW emitted by supermassive black-hole binaries before merger.
+
+Extraction of the signal from the noisy data by means of matched filtering
+techniques and source parameter estimation both require an accurate modeling
+of the waveform. For binary systems of compact objects, the inspiralling phase
+of the coalescence can be modeled extremely well by resorting to the
+perturbative post-Newtonian (PN) scheme (see~\cite{Bliving} for a review), in
+which all quantities of interest are expanded as formal series in powers of
+$1/c$. For non-spinning (NS) systems, the phase of the waveform is currently
+known up to the order 3.5PN (i.e.\ including corrections up to $1/c^7$),
+whereas the full polarizations have been obtained up to the order
+3PN~\cite{BFIS08} (with the dominant quadrupole and octupole modes in the
+decomposition of the waveform in spin-weighted spherical harmonics known up to
+the order 3.5PN~\cite{FMBI12,FBI14}).
+
+In recent years, motivated by astrophysical observations suggesting that black
+holes in our universe can have significant spins, considerable effort has been
+devoted to investigating higher order corrections to the spin effects in the
+binary dynamics, mostly restricted to the conservative piece of the body
+evolution in the near zone. While for the neutron stars observed so far, the
+largest dimensionless spin magnitude ever measured~\cite{Hessels+06} is only
+$\chi \sim 0.4$ (and may reasonably be assumed to be much smaller for
+typical expected observations), the spin of a black-hole might be commonly
+close to its maximal value~\cite{Gou+11,Nowak+12,Brenneman+11,Reynolds13}.
+Then, its effect on the waveform can be fairly strong and, in particular, for
+spins misaligned with the orbital angular momentum of the system, the dynamics
+becomes much more involved as the orbital plane undergoes precession,
+resulting in large modulations of the waveforms~\cite{K95,ACST94}. Even in the
+simpler case where the spins are aligned with the orbital angular momentum,
+they significantly affect the inspiral rate of the binary, i.e.\ the frequency
+evolution of the signal, starting at the 1.5 PN order (see for instance
+Ref.~\cite{Nitz+13} for a detailed study of the effect of the spin on the
+waveform quantified in terms of figures of merit relevant to data analysis).
+To make all factors $1/c$ appear explicitly in this paper, we rescale the
+physical spin variable $S_{\rm physical}$ as
+%
+\be S=c\, S_{\rm physical}=Gm^2\chi \,,
+\ee 
+%
+where $\chi$ is the dimensionless spin, with value 1 for an extremal Kerr
+black hole.
+
+The calculation of the spin PN corrections to the conservative part of the
+dynamics and, to some extent, to the radiation field of the binary beyond the
+leading order contributions has been tackled using essentially three different
+approaches: (i) a Hamiltonian approach that strongly relies on the use of the
+(second) Arnowitt-Deser-Missner (ADM) gauge~\cite{SS09a}, and in which the
+dissipative part of the dynamics, demanding a special treatment, is generally
+discarded (see however Ref.~\cite{WSZS11}), (ii) an effective field theory
+(EFT) Lagrangian formalism~\cite{Porto06,PR08a}, whose application to binary
+systems in general relativity has been actively developed since the
+mid-2000's, and (iii) a post-Newtonian iteration scheme in harmonic
+coordinates (PNISH), reviewed in Ref.~\cite{Bliving}, which we follow in the
+present paper. The existence of those three independent methods permits
+important checks of calculations that are often tedious, whenever quantities
+are available at the same order in more than one formalism.
+
+The binary dynamics at the spin-orbit level (i.e.\ linear-in-spin effects,
+which will be referred to as SO from now on) are known up to the order 3.5PN
+in both the PNISH and ADM
+approaches~\cite{FBB06,MBFB13,BMFB13,DJSspin,HS11so,HSS13}, and to the order
+2.5PN in the EFT framework~\cite{Porto10,Levi10}. On the other hand,
+quadratic-in-spin corrections (labeled as SS throughout the paper) have been
+obtained to the order 2PN in the PNISH formalism~\cite{KWW93,Poisson97,BFH12},
+while in both the ADM and EFT formalisms they are known up to the order
+3PN~\cite{HS11ss,PR08b,HSS12,LS14a}, and even 4PN for the simpler $S_1 S_2$
+interactions~\cite{HS11ss,PR08a,Levi08,Levi12}. Higher-order-in-spin
+corrections have also been recently derived~\cite{HS07,HS08,Marsat15,LS14a}.
+As for the spin contributions to the radiation field, they have mostly been
+computed by using the same usual combination of the MPM and PNISH approaches as
+in the present paper, although partial results required for the calculation of
+the 3PN flux~\cite{PRR10} and the 2.5PN waveform~\cite{PRR12} have been
+obtained within the EFT approach. The energy flux of gravitational-wave
+radiation is known up to the order 4PN at the SO
+level~\cite{BBF06,BMB13,MBBB13}, whereas at the SS level only the leading
+order (2PN) terms were known until now~\cite{BFH12}. Moreover, the leading
+order cubic-in-spin terms, which arise at 3.5PN, have been calculated very
+recently~\cite{Marsat15}.
+
+Our goal here will be to determine, within the PNISH approach, the 3PN
+(i.e.\ next-to-leading order) spin-spin corrections entering both the source
+dynamics (thereby providing an additional confirmation of the ADM and EFT
+results already available at this order) and most importantly the energy flux,
+thus completing the knowledge of all the spinning corrections to the phasing
+formula up to the 3PN order. At the next order 3.5PN, the only remaining
+unknown terms all come from a SS tail contribution. By contrast, the spin
+corrections to the full gravitational-wave polarizations are only known to the
+poorer 2PN accuracy~\cite{ABFO09,BFH12} and we postpone to future work the
+task of obtaining all the corrections up to the order 3PN.
+
+Our source modeling, as well as the one used in the EFT and ADM approaches,
+consists in representing each compact object as a (spinning) point particle
+whose internal structure is entirely parametrized by a set of effective
+multipole moments. The validity of this description, which makes the
+calculations tractable analytically, relies on (i) the compact character of
+the bodies, and (ii) the weak influence of their internal dynamics to their
+``global'' motion in general relativity, often referred to as the effacement
+principle~\cite{Damour83}. The foundations of this formalism were laid down in
+the seminal works of Mathisson~\cite{Mathisson37,
+  Mathisson40,Mathisson37repub}. Later Papapetrou~\cite{Papapetrou51spin},
+found a particularly simple form for the evolution equations (which comprise
+both the equations of motion and of spin precession) for dipolar particles,
+i.e.\ at linear order in spins. His derivation was improved and rephrased in
+the language of distribution theory by Tulczyjew~\cite{Tulczyjew59}, whose
+method --- systematically extensible beyond the dipolar model --- has been
+recently applied at the quadrupolar level~\cite{SP10}. The dynamics of point
+particles with finite-size effects described by higher multipoles was
+thoroughly investigated by Dixon~\cite{Dixon64,Dixon73,Dixon74,Dixon79}, who
+constructed an appropriate stress-energy ``skeleton'' to encode information
+about the internal structure of the body while, on their side, Bailey \&
+Israel proposed an elegant effective Lagrangian formulation~\cite{BI75}.
+Recently, Harte~\cite{Harte12} showed how the formalism of Dixon could be
+extended to self-gravitating systems, by constructing appropriate effective
+momenta and effective multipole moments evolving in some effective metric.
+
+In the present article, we are interested in the quadratic-in-spin
+contributions arising from the quadrupolar moment of the compact object in the
+case where it is adiabatically induced by the
+spin~\cite{Poisson97,PR08b,Steinhoff11,BFH12}, as well as the simpler
+contributions coming from products of SO corrections. This means that we shall
+implicitly assume that the relaxation time needed for the body, subject to an
+external perturbation, to recover equilibrium in its co-rotating frame is much
+shorter than the orbital period of the binary. The equilibrium states are then
+entirely determined by the mass and the spin of the object. On the other hand,
+because, in our source model, we replace extended bodies by point particles
+within a self-gravitating system, our approach must be regarded as an
+effective one and supplemented with some UV regularization procedure. A good
+choice is known to be dimensional regularization, with possible need of
+renormalization. We find however that, at this order, the so-called pure
+Hadamard-Schwartz prescription~\cite{BDE04} is sufficient, i.e.\ that
+dimensional regularization is not necessary.
+
+The paper is organized as follows. In Section~\ref{sec:dynamics}, we explain
+how the dynamics of a test point particle endowed with a spin-induced
+quadrupolar structure moving in a curved background spacetime is described in
+the Dixon-Mathisson-Papapetrou formalism. We also write the equations of
+evolution for the particle worldline, as well as for the spin, under a
+convenient explicit form, and we define a spin vector of conserved Euclidian
+norm in terms of which our PN results shall be written. The validity of the
+model to describe the body dynamics in self-gravitating binaries is discussed.
+In Section~\ref{sec:PNdynamics}, dedicated to the computation of the
+next-to-leading order SS contributions to the PN equations of motion, we
+present expressions for the conserved energy in the center-of-mass frame, both
+for generic orbits and for the restricted case of circular orbits in the
+absence of precession. Finally, Section~\ref{sec:PNflux} sketches the
+derivation of the next-to-leading order SS contributions to the GW flux and
+presents the full phase expression for non-precessing binaries at the order
+3PN (apart from possible black-hole absorption effects). It also includes a
+discussion of the impact of our newly computed terms on the gravitational-wave
+phasing in the frequency band of LIGO and Virgo. Because of the length of the
+equations, some results are relegated to appendices.
+Appendix~\ref{app:resultseom} gives the explicit expressions for the relative
+acceleration, the precession vector, and the conserved angular momentum in the
+center-of-mass frame, and Appendix~\ref{app:moments} shows the relevant SS
+contributions to the source moments. We also give the explicit transformation
+between spin vector and spin tensor in Appendix~\ref{app:spinvectortensor}, as
+well as the correspondence between our results and the ADM ones in
+Appendix~\ref{app:adm}.
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+
+\section{Summary of the formalism}\label{sec:summaryformalism}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Notations and conventions}
+\label{subsec:notations}
+
+[to update]
+We use the following conventions henceforth: $\calO(n)$ means
+$\calO(1/c^{n})$, i.e.\ represents a contribution of the order $(n/2)$PN at
+least. Greek indices denote spacetime coordinates, i.e.\ $\mu = 0,1,2,3$,
+while Latin indices are used for spatial coordinates, i.e.\ $i=1,2,3$.
+Symmetrization and anti-symmetrization are represented by, respectively,
+parenthesis and brackets around indices. We adopt the signature $(-,+,+,+)$
+and keep explicit both Newton's constant $G$ and the speed of light $c$.
+Finally the covariant derivative along the worldline is written as
+$\uD/(c\,\ud \tau) = u^{\mu}\nabla_{\mu}$, where $u^{\mu}$ is the four
+velocity of the particle, defined such that $u^{\mu}u_{\mu}=-1$.
+
+\be
+	S=c\, S_{\rm physical}=Gm^2\chi \,,
+\ee 
+
+\be\label{eq:ssc}
+	S^{\mu\nu}p_{\nu} = 0\,.
+\ee
+
+[Note: complete $S^3$]
+\begin{subequations} \label{eq:evolution}
+\begin{align}
+	\frac{\uD p_{\mu}}{\ud\tau} &= -\frac{1}{2}R_{\mu\nu\rho\sigma}u^{\nu}S^{\rho\sigma} - \frac{1}{6} J^{\lambda\nu\rho\sigma} \nabla_{\mu} R_{\lambda\nu\rho\sigma} - \frac{1}{12} J^{\tau\lambda\nu\rho\sigma}\nabla_{\mu}\nabla_{\tau}R_{\lambda\nu\rho\sigma}\,, \label{eq:dpdt} \\
+  \frac{\uD S^{\mu\nu}}{\ud \tau} &= 2p^{[\mu}u^{\nu]} + \frac{4}{3} R^{[\mu}_{\ph{\mu}\lambda\rho\sigma}J^{\nu]\lambda\rho\sigma} + \frac{2}{3}\nabla^{\lambda}R^{[\mu}_{\ph{\mu}\tau\rho\sigma} J_{\lambda}^{\ph{\lambda}\nu]\tau\rho\sigma} + \frac{1}{6}\nabla^{[\mu}R_{\lambda\tau\rho\sigma} J^{\nu]\lambda\tau\rho\sigma} \,, \label{eq:dsdt}
+\end{align}
+\end{subequations}
+
+\be \label{eq:scalar_density}
+n = \int_{-\infty}^{+\infty} c\, \ud \tau'
+\frac{\delta^{4}(x-y(\tau'))}{\sqrt{-g}} \, ,
+\ee
+
+[Note: complete $S^3$]
+\begin{align}\label{eq:Tmunuquadrupole}
+  T^{\alpha\beta} &= n \left[ p^{(\alpha}u^{\beta)} c +\frac{1}{3}
+    R^{(\alpha}_{\ph{\alpha}\lambda\rho\sigma}J^{\beta)\lambda\rho\sigma}c^2 \right] \nn \\
+  & \quad  - \nabla_{\rho} \left[n\, S^{\rho(\alpha}u^{\beta)} \right] - \frac{2}{3} 
+  \nabla_{\rho}\nabla_{\sigma}  \left[ n\, c^2 J^{\rho(\alpha\beta)\sigma} \right]  \,.
+\end{align}
+
+[Note: ajouter octupôle $S^3$ - clarify m or mtilde - put factors c]
+\begin{subequations}
+\begin{align}
+	J^{\mu\nu\rho\sigma} &= \frac{3 \kappa}{m}u^{[\mu}S^{\nu]\lambda}S_{\lambda}^{\ph{\lambda}[\rho}u^{\sigma]} \\
+	J^{\lambda\mu\nu\rho\sigma} &= \frac{\lambda}{4 m^{2}} \left[ \Theta^{\lambda[\mu}u^{\nu]}S^{\rho\sigma} + \Theta^{\lambda[\rho}u^{\sigma]}S^{\mu\nu} \right.\nn\\
+	& \qquad \quad \; - \Theta^{\lambda[\mu}S^{\nu][\rho}u^{\sigma]} - \Theta^{\lambda[\rho}S^{\sigma][\mu}u^{\nu]} \nn\\
+	&\qquad \quad \; \left. - S^{\lambda[\mu}\Theta^{\nu][\rho}u^{\sigma]} - S^{\lambda[\rho}\Theta^{\sigma][\mu}u^{\nu]} \right] \,,
+\label{eq:Jdef}
+\end{align}
+\end{subequations}
+
+[Note: complete $S^3$ - explain only at leading PN order]
+\be \label{eq:defm}
+	m \equiv \tilde{m} - \frac{1}{6}R_{\rho\lambda\mu\nu} J^{\rho\lambda\mu\nu} \,. 
+\ee
+
+\be \label{eq:norms}
+	\frac{\ud s}{\ud \tau} = \calO. 
+\ee
+
+[Note: complete $S^3$ - clarify m or mtilde]
+\begin{subequations}\label{eq:defscovector}
+\begin{align}
+	\tilde{S}_{\mu} &= - \frac{1}{2} \epsilon_{\mu\nu\rho\sigma}\frac{p^{\nu}}{m}S^{\rho\sigma} \,, \\ 
+	S^{\mu\nu} &= \epsilon^{\mu\nu\rho\sigma}\frac{p_{\rho}}{m} \tilde{S}_{\sigma} 
+\end{align}
+\end{subequations}
+
+[Note: complete $S^3$]
+\be
+	\frac{{\mathrm d}S_{i}}{{\mathrm d}t} = \varepsilon_{ijk} \Omega^{j}
+S^{k}+ \calO(SSS) \,.
+\ee
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Multipolar decomposition of the gravitational waveform}
+\label{subsec:summarymultipoles}
+
+In radiative coordinates $(T, \bm{R})$, with radial unit vector $\bm{N}$,
+\begin{align}\label{eq:hij}
+h_{ij}^\text{TT} &= \frac{4G}{c^2R} \,\mathcal{P}_{ijkl} (\bm{N}) \sum^{+\infty}_{\ell=2}\frac{1}{c^\ell \ell !} \left\{ N_{L-2} \,U_{klL-2}(T_R) - \frac{2\ell}{c(\ell+1)} \,N_{aL-2} \,\varepsilon_{ab(k} \,V_{l)bL-2}(T_R)\right\} \,,
+\end{align}
+where we introduced the transverse-tracefree (TT) projection operator $\mathcal{P}_{ijkl} = \mathcal{P}_{i(k}\mathcal{P}_{l)j}-\frac{1}{2}\mathcal{P}_{ij}\mathcal{P}_{kl}$, with $\mathcal{P}_{ij}=\delta_{ij}-N_iN_j$ the projector orthogonal to the unit direction $\bm{N}$.
+
+The energy flux carried away by gravitational waves is given by 
+\begin{equation}\label{flux}
+  \mathcal{F} = \sum_{\ell = 2}^{+ \infty} \frac{G}{c^{2\ell+1}} \left[ \frac{(\ell+1)(\ell+2)}{(\ell-1) \ell \, \ell! (2\ell+1)!!} U_L^{(1)} U_L^{(1)} + \frac{4\ell (\ell+2)}{c^2 (\ell-1) (\ell+1)!  (2\ell+1)!!} V_L^{(1)}V_L^{(1)}\right]\,.
+\end{equation}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Near-zone post-Newtonian metric and sources}
+\label{subsec:summarymetric}
+
+\begin{subequations}\label{eq:metricg}
+\begin{align} 
+  g_{00} &=  -1 + \frac{2}{c^{2}}V - \frac{2}{c^{4}} V^{2} + \frac{8}{c^{6}}
+  \left(\hat{X} + V_{i} V_{i} + \frac{V^{3}}{6}\right) +\calO(8)\,,\\ 
+  g_{0i} & = - \frac{4}{c^{3}}
+  V_{i} - \frac{8}{c^{5}} \hat{R}_{i} + \calO(7)\,,\\ 
+  g_{ij} & = \delta_{ij} \left[1 +
+    \frac{2}{c^{2}}V + \frac{2}{c^{4}} V^{2} \right] + 
+  \frac{4}{c^{4}}\hat{W}_{ij} + \calO(6) \,.
+\end{align}
+\end{subequations}\noindent
+
+We will need only the 2PN metric potentials, which are defined as (see~\cite{} for higher-order expressions of the metric potentials, generalized to $d$ dimensions)
+\begin{subequations}\label{eq:defpotentials}
+\begin{align}
+  V & = \Box_{\mathcal{R}}^{-1}[-4 \pi G\, \sigma]\;,\label{V} \\ 
+  V_{i} &= \Box_{\mathcal{R}}^{-1}[-4 \pi G\, \sigma_{i}]\,, \\
+  \hat{X} &= \Box_{\mathcal{R}}^{-1}\left[\vphantom{\frac{1}{2}} - 4 \pi G\, V \sigma_{ii} + \hat{W}_{ij}\partial_{ij} V + 2 V_{i} \partial_{t} \partial_{i} V + V \partial_{t}^{2}V+ \frac{3}{2}(\partial_{t} V)^{2} - 2\partial_{i} V_{j}\partial_{j} V_{i}\right] \,, \\
+  \hat{R}_{i} & = \Box_{\mathcal{R}}^{-1}\left[-4 \pi G\, (V \sigma_{i} - V_{i} \sigma) - 2\partial_{k} V \partial_{i} V_{k} - \frac{3}{2} \partial_{t} V \partial_{i} V\right]\,, \\ 
+  \hat{W}_{ij} & =  \Box_{{\cal R}}^{-1}\left[-4 \pi G\, (\sigma_{ij} - \delta_{ij} \sigma_{kk}) - \partial_{i} V \partial_{j}V\right]\,, \label{Wij} 
+\end{align}
+\end{subequations}
+
+[restricted expressions of Sigma's ? actually terms O(6) in Sigma are needed, so maybe just refer to BMB2013]
+$\Sigma = (\tau^{00}+\tau^{ii})/c^{2}$, $\Sigma_{i} = \tau^{0i}/c$, $\Sigma_{ij} = \tau^{ij}$
+\begin{subequations}\label{eq:defSigma}
+\begin{align}
+  \Sigma & = \sigma + \dots\,, \\ 
+  \Sigma_{i} &= \sigma_{i} + \dots \,, \\
+  \Sigma_{ij} &= \sigma_{ij} + \dots
+\end{align}
+\end{subequations}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Post-Minkowskian multipolar formalism for wave generation}
+\label{subsec:summarymultipolar}
+
+[general expression of source moments]
+
+The source aud gauge moments then take general expression as integrals over the source. The mass and current source moments are given by~\cite{}
+\begin{subequations}\label{eq:defILJL}
+\begin{align}
+	I_L(t) &= \mathop{\mathrm{FP}}_{B=0}\,\int \ud^3\mathbf{x}\,\left(r/r_0\right)^B \int^1_{-1} \ud z\left\{\delta_\ell\,\hat{x}_L\,\Sigma -\frac{4(2\ell+1)}{c^2(\ell+1)(2\ell+3)} \,\delta_{\ell+1} \,\hat{x}_{iL} \,\Sigma_i^{(1)}\right.\nn\\
+	&\qquad\quad \left. +\frac{2(2\ell+1)}{c^4(\ell+1)(\ell+2)(2\ell+5)} \,\delta_{\ell+2}\,\hat{x}_{ijL}\Sigma_{ij}^{(2)}\right\}(\mathbf{x},t+z\,r/c)\,,\\
+	J_L(t) &= \mathop{\mathrm{FP}}_{B=0}\,\varepsilon_{ab<i_\ell} \int \ud^3 \mathbf{x}\,\left(r/r_0\right)^B \int^1_{-1} \ud z\left\{\vph{\frac{1}{1}} \delta_\ell\,\hat{x}_{L-1>a} \,\Sigma_b \right. \nn\\
+	&\qquad\quad \left. -\frac{2\ell+1}{c^2(\ell+2)(2\ell+3)} \,\delta_{\ell+1}\,\hat{x}_{L-1>ac} \,\Sigma_{bc}^{(1)}\right\} (\mathbf{x},t+z\,r/c)\,,
+\end{align}\end{subequations}
+while the (the expression for the other )
+%
+where $\Sigma = (\tau^{00}+\tau^{ii})/c^{2}$, $\Sigma_{i} = \tau^{0i}/c$, $\Sigma_{ij} = \tau^{ij}$ and $\tau^{\mu\nu}$  $\delta_{\ell}(z) = a_{\ell}(1-z^{2})^{\ell}$ and $a_{\ell} = (2\ell+1)!!/2^{\ell+1}\ell!$ a normalization constant, can be written as a post-Newtonian expansion according to
+%
+\be\label{eq:intdeltal}
+	\int^1_{-1} dz~ \delta_\ell(z) \,\Sigma(\mathbf{x},t+z\,r/c) = \sum_{k=0}^{+\infty}\,\frac{(2\ell+1)!!}{(2k)!!(2\ell+2k+1)!!}\,\left(\frac{r}{c}\right)^{2k}\!\Sigma^{(2k)}(\mathbf{x},t)\,.
+\ee
+
+The gauge moments $(W_{L},\dots,Z_{L})$ admit similar expressions that can be found e.g. in Eqs.~[] of Ref.~\cite{}. 
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+
+\section{Spin contributions to the multipolar moments}\label{sec:spincontributions}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Leading-order spin contributions}
+\label{subsec:LO}
+
+[table of dominant/relative orders] [CHECK: leading order of SSS in sigmaij ?]
+
+\begin{table*}[h]
+\begin{center}
+\begin{tabularx}{0.55\textwidth}{c *{3}{Y} c *{3}{Y}}
+\toprule
+  & \multicolumn{3}{c}{Leading order} & & \multicolumn{3}{c}{Leading order} \\
+\cmidrule(lr){2-4} \cmidrule(lr){6-8}
+   Moment & SO & SS & SSS & Potential & SO & SS & SSS  \\
+\midrule
+  $I_{L}$          & 3 & 4 & 7 & $V$ & 3 & 4 & 7 \\
+  $J_{L}$          & 1 & 4 & 5 & $V_{i}$ & 1 & 4 & 5 \\
+  $W_{L}$          & 1 & 4 & 5 & $W_{ij}$ & 1 & 4 & ? \\
+  $X_{L}$          & 1 & 4 & ? & $R_{i}$ & 1 & 4 & 5 \\
+  $Y_{L}$          & 1 & 4 & 5 & $X$ & 1 & 2 & 5 \\
+  $Z_{L}$          & 1 & 4 & ? & & & & \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\caption{
+Dominant and required order of the spin contributions in the radiative moments, shown both for the energy flux and for the full gravitational waveform at 3.5PN.
+\label{tab:cycles}}
+\end{table*}
+
+\begin{table*}[h]
+\begin{center}
+\begin{tabularx}{0.95\textwidth}{cc *{9}{Y}}
+\toprule
+  & & \multicolumn{3}{c}{Leading order} & \multicolumn{3}{c}{Relative order flux} & \multicolumn{3}{c}{Relative order waveform}\\
+\cmidrule(lr){3-5} \cmidrule(l){6-8} \cmidrule(l){9-11}
+  $\ell$ & Moment & SO & SS & SSS & SO & SS & SSS & SO & SS & SSS \\
+\midrule
+  2 & $U_{ij}$          & 3 & 4 & 7 & 4 & 3 & 0 & 4 & 3 & 0 \\
+  3 & $U_{ijk}$         & 3 & 4 & 7 & 2 & 1 & - & 3 & 2 & - \\
+  4 & $U_{ijkl}$        & 3 & 4 & 7 & 0 & - & - & 2 & 1 & - \\
+  5 & $U_{ijklm}$     & 3 & 4 & 7 & - & - & - & 1 & 0 & - \\
+  6 & $U_{ijklmp}$   & 3 & 4 & 7 & - & - & - & 0 & - & - \\
+  \hline
+  2 & $V_{ij}$           & 1 & 4 & 5 & 4 & 3 & 0 & 5 & 2 & 1 \\
+  3 & $V_{ijk}$         & 1 & 4 & 5 & 2 & 1 & - & 4 & 1 & 0 \\
+  4 & $V_{ijkl}$        & 1 & 4 & 5 & 0 & - & - & 3 & 0 & - \\
+  5 & $V_{ijklm}$     & 1 & 4 & 5 & - & - & - & 2 & - & - \\
+  6 & $V_{ijklmp}$   & 1 & 4 & 5 & - & - & - & 1 & - & - \\
+  7 & $V_{ijklmpq}$ & 1 & 4 & 5 & - & - & - & 0 & - & - \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\caption{
+Dominant and required order of the spin contributions in the radiative moments, shown both for the energy flux and for the full gravitational waveform at 3.5PN. [NOTE: order 5 in SO means that the fact that we are ignoring spin-absorption effects is relevant here]
+\label{tab:cycles}}
+\end{table*}
+
+We recall here the leading PN order of spin contributions in the source moments~\cite{Marsat14}
+\begin{subequations}\label{eq:ILJLLO}
+\begin{align}
+	\left(I_L\right)_{\rm NS} &= m_{1}y_{1}^{<L>} + \exch + \calO(2) \,, \\
+	\left(J_L\right)_{\rm NS} &= y_{1}^{a}v_{1}^{b}\varepsilon^{ab<i_\ell} y_{1}^{L-1>} + \exch + \calO(2) \,, \\
+	\left(I_L\right)_{\rm SO} &= \frac{2\ell}{c^{3}(\ell+1)} \left[ \ell v_{1}^{a}S_{1}^{b}\varepsilon^{ab<i_\ell} y_{1}^{L-1>} - (\ell-1)y_{1}^{a}S_{1}^{b}\varepsilon^{ab<i_\ell} v_{1}^{i_{\ell-1}}y_{1}^{L-2>} \right] + \exch + \calO(5) \,, \\
+	\left(J_L\right)_{\rm SO} &= \frac{\ell+1}{2 c} S_{1}^{<i_{\ell}}y_{1}^{L-1>} + \exch + \calO(3) \,, \\
+	\left(I_L\right)_{\rm SS} &= -\frac{\ell(\ell-1)\kappa_{1}}{2 m_{1}c^{4}}  S_{1}^{<i_{\ell}}S_{1}^{i_{\ell-1}}y_{1}^{L-2>} + \exch + \calO(6) \,, \\
+	\left(J_L\right)_{\rm SS} &= \frac{(\ell-1)\kappa_{1}}{2 m_{1}c^{4}} \left[ 2 v_{1}^{a}S_{1}^{b}\varepsilon^{ab<i_\ell} S_{1}^{i_{\ell-1}}y_{1}^{L-2>} - (\ell-2)y_{1}^{a}v_{1}^{b}\varepsilon^{ab<i_\ell} S_{1}^{i_{\ell-1}}S_{1}^{i_{\ell-2}}y_{1}^{L-3>} \right] \nn\\ &\quad+ \exch + \calO(6) \,, \\
+	\left(I_L\right)_{\rm SSS} &= \frac{\ell(\ell-1)(\ell-2)\lambda_{1}}{3(\ell+1) m_{1}^{2}c^{7}} \left[ -\ell v_{1}^{a}S_{1}^{b}\varepsilon^{ab<i_\ell} S_{1}^{i_{\ell-1}} S_{1}^{i_{\ell-2}} y_{1}^{L-3>} \right. \nn\\ 
+	&\qquad \qquad \left.+ (\ell-3)y_{1}^{a}S_{1}^{b}\varepsilon^{ab<i_\ell} v_{1}^{i_{\ell-1}} S_{1}^{i_{\ell-1}} S_{1}^{i_{\ell-2}} v_{1}^{i_{\ell-3}}y_{1}^{L-4>}  \right] + \exch + \calO(8) \,, \label{eq:ILSSS}\\
+	\left(J_L\right)_{\rm SSS} &= -\frac{(\ell+1)(\ell-1)(\ell-2)\lambda_{1}}{12 m_{1}^{2}c^{5}} S_{1}^{<i_{\ell}} S_{1}^{i_{\ell-1}} S_{1}^{i_{\ell-2}} y_{1}^{L-3>} + \exch + \calO(6) \,.
+\end{align}\end{subequations}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Higher-order contributions source moments}
+\label{subsec:higherordersource}
+
+[Ri O(2)]
+
+[SS O(7) absent from the EOM]
+
+[contributions in CM reduction, including SS O(6)]
+
+\begin{align}\label{eq:gammacirc}
+  \gamma_{\rm SS} &= \frac{x}{G^{2}m^{4}} \left\{ x^{2} 
+    \left[ S_{\ell}^2 \left(-\frac{\kappa_{+}}{2}-1\right)  + 
+      S_{\ell} \Sigma_{\ell} \left(-\frac{\delta  \kappa_{+}}{2}-\delta +
+        \frac{\kappa_{-}}{2}\right) \right.\right. \nn \\
+  & \qquad\qquad\qquad\qquad\qquad\qquad \left.\left. + 
+      \Sigma_{\ell}^2 \left( \left(\frac{\delta  \kappa_{-}}{4} -
+          \frac{\kappa_{+}}{4}\right)  + \nu \left(\frac{\kappa_{+}}{2} + 
+          1\right) \right) \right] \right. \nn \\
+  & \qquad\qquad\quad \left. + x^{3} \left[ S_{\ell}^2 \left( 
+        \left(-\frac{11 \delta  \kappa_{-}}{12} - \frac{11 \kappa_{+}}{12} +
+          \frac{14}{9}\right) + \nu \left(-\frac{\kappa_{+}}{6} - 
+          \frac{1}{3}\right) \right) \right.\right. \nn \\
+  & \qquad\qquad\qquad\qquad \left.\left. + 
+      S_{\ell} \Sigma_{\ell} \left( \left(\frac{5 \delta }{3}\right) + 
+        \nu \left(-\frac{\delta  \kappa_{+}}{6} - \frac{\delta }{3} +
+          \frac{23 \kappa_{-}}{6}\right) \right) \right.\right. \nn \\
+  & \qquad\qquad\qquad\qquad \left.\left. + 
+      \Sigma_{\ell}^2 \left(1 + \nu \left(\delta  \kappa_{-} - \kappa_{+} - 
+          2\right)  + \nu ^2 \left(\frac{\kappa_{+}}{6} +
+          \frac{1}{3}\right) \right) \right] + \calO(8) \right\} \,.
+\end{align}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Non-linear contributions to the radiative moments}
+\label{subsec:non-linear}
+
+[detail of the contributions : ]
+
+[give tail terms that contribute, including SS]
+
+\begin{subequations}
+\begin{align}
+	\left[U_{ij}^{\rm tail} \right]_{S} &= \frac{2G M}{c^3} \int^{+\infty}_{0} \ud \tau \left[ \ln \left(\frac{c\tau}{2r_0}\right)+\frac{11}{12} \right] \left[ M^{(4)}_{ij} (U-\tau) \right]_{S} \,,\\
+	\left[U_{ijk}^{\rm tail} \right]_{S} &= {2G M\over c^3} \int^{+\infty}_{0} \ud\tau\left[ \ln \left(\frac{c\tau}{2r_0}\right)+{97\over60} \right] \left[ M^{(5)}_{ijk} (U-\tau) \right]_{S} \,,\\
+	\left[V_{ij}^{\rm tail} \right]_{S} &= {2G M\over c^3} \int^{+\infty}_{0} \ud\tau \left[ \ln \left(\frac{c\tau}{2r_0}\right)+{7\over6} \right] \left[ S^{(4)}_{ij} (U-\tau) \right]_{S} \,.
+\end{align}
+\end{subequations}
+Note that the mass monopole, or ADM mass $M$, $M = m + E_{N}/c^{2} + \dots$ with $E_{N}$ the Newtonian binding energy, so that the spin contributions in $M$ start at $\calO(5)$ and not $\calO(3)$ as in the mass-type moments $M_{L}$ with $\ell \geq 2$.
+
+[give memory term]
+
+We also find spin contributions at the relevant order coming from the memory term of the mass octupole, according to (here and in the following, STF projections are taken only on the free indices $i,j,\dots$, ignoring contracted indices $a,b,\dots$)
+\begin{align}
+	\left[U_{ijk}^{\rm mem} \right]_{S} &= -{4G\over 5 c^5} \int^{+\infty}_{0} \ud\tau \left[ \epsilon_{ab\langle i} \mathrm{M}^{(3)}_{ja} \mathrm{S}^{(3)}_{k\rangle b} (U-\tau) \right]_{S}\,.
+\end{align}
+
+[explain how hereditary integrals are computed]
+Since we are considering the aligned spin case, there are no precession effects to consider here and the evolution of the dynamics of the binary is qualitatively the same as for the usual quasi-circular orbits, with the aligned conserved norm spins acting simply as constant vectors. This is to be contrasted with the more general case of binaries on quasi-circular but precessing orbits (as defined for instance in~\cite{}), where one must solve anaytically the dynamics consistently with the order at which the analysis is carried, to be able to compute these hereditary integrals. The computation of the SO tail effects in the flux at the 3PN and 4PN order was performed in Refs.~\cite{} and~\cite{}. The solution developed there for the dynamics makes use of a formal development at first order in spin, and would require to be extended to allow for the computation of the 3.5PN SS tail effects.
+
+[give instantaneous non-linear terms]
+
+\begin{subequations}
+\begin{align}
+	\left[U_{ij}^{\rm inst} \right]_{S} &= \frac{2G}{c^{5}} \left[ \frac{1}{3} \varepsilon_{ab\langle i} M_{j\rangle a}^{(4)}S_{b}\right]_{S} + \calO(8) \,,\\
+	\left[U_{ijk}^{\rm inst} \right]_{S} &= \frac{G}{c^{5}} \left[ {1\over5}\epsilon_{ab\langle  i}\left( -12\mathrm{S}^{(2)}_{ja}M^{(3)}_{k\rangle b} - 8M^{(2)}_{ja}M^{(3)}_{k\rangle b} -3M^{(1)}_{ja}M^{(4)}_{k\rangle b} -27M^{(1)}_{ja}M^{(4)}_{k\rangle b}-M_{ja}M^{(5)}_{k\rangle b} \phfrac\right.\right. \nn\\
+    & \qquad\qquad\qquad \left.\left. -9M_{ja}M^{(5)}_{k\rangle b} -{9\over4}M_{a}M^{(5)}_{jk\rangle b}\right)+{12\over5}M_{\langle i}M^{(4)}_{jk\rangle} \right]_{S} + \calO(8) \,,\\
+	\left[V_{ij}^{\rm inst} \right]_{S} &= {G\over7\,c^{5}} \left[ 4M^{(2)}_{a\langle i}M^{(3)}_{j\rangle a}+8M^{(2)}_{a\langle i}M^{(3)}_{j\rangle a} +17M^{(1)}_{a\langle i}M^{(4)}_{j\rangle a}-3M^{(1)}_{a\langle i}M^{(4)}_{j\rangle a}+9M_{a\langle i}M^{(5)}_{j\rangle a} \phfrac\right. \nn\\
+    & \qquad\qquad \left. - 3M_{a\langle i}M^{(5)}_{j\rangle a}-{1\over4}M_{a}M^{(5)}_{ija}-7\epsilon_{ab\langle i}M_{a}M^{(4)}_{j\rangle b} \right]_{S} + \calO(8) \,,\\
+	\left[V_{ijk}^{\rm inst} \right]_{S} &= -\frac{2G}{c^{3}} \left[ \mathrm{S}_{\langle i}M^{(4)}_{jk\rangle } \right]_{S} + \calO(6) \,.\\
+\end{align}
+\end{subequations}
+
+Lastly, the canonical moments $(M_{L},S_{L})$ are related to the set of source and gauge moments $(I_{L},J_{L},W_{L},X_{L},Y_{L},Z_{L})$ by (see~\cite{BFIS08} for an account of the procedure)
+\begin{subequations}
+\begin{align}
+	M_{L} &= I_{L} + \delta I_{L} \,,\\
+	S_{L} &= J_{L} + \delta J_{L} \,,
+\end{align}
+\end{subequations}
+where $\delta I_{L}$ and $\delta J_{L}$ are non-linear corrections made of products of source and gauge moments, and starting at the 2.5PN order. For the spin contributions, we have explicitly (see in ~\cite{})
+\begin{subequations}
+\begin{align}
+	\left[ \delta I_{ij} \right]_{S} &= \calO(8) \,,\\
+	\left[ \delta I_{ijk} \right]_{S} &= {12G\over c^5}\left[ I_{\langle ij}Y_{k\rangle }^{(1)} \right]_{S} +\calO(8) \,,\\
+	\left[ \delta J_{ij}\right]_{S} &= {2G\over c^5}\left[\epsilon_{ab\langle i}\left(-2I_{j\rangle b}Y_{a}^{(2)} +I_{j\rangle b}^{(1)}Y_{a}^{(1)}\right)+3J_{\langle i}W_{j\rangle}^{(1)}-2Y_{ij}^{(1)}W^{(1)}\right]_{S} +\calO(8) \,,
+\end{align}
+\end{subequations}
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+
+\section{Results}\label{sec:results}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Spin-weighted spherical modes}
+\label{subsec:hlm}
+\begin{subequations}
+\begin{align}
+H_{2,2} &= \frac{x^{3/2}}{G m^2}\left[-2 S_{\ell} -  \tfrac{2}{3} \Sigma_{\ell} \delta + \bigl(S_{\ell} (- \tfrac{163}{63} -  \tfrac{92}{63} \nu) + \Sigma_{\ell} (- \tfrac{1}{21} \delta + \tfrac{20}{63} \delta \nu)\bigr) x \right. \nn\\
+& \left. \qquad\qquad + \bigl((- \tfrac{4}{3}i - 4 \pi) S_{\ell} -  \tfrac{4}{3} \pi \Sigma_{\ell} \delta\bigr) x^{3/2} \right. \nn\\
+& \left. \qquad\qquad + \bigl(S_{\ell} (\tfrac{1061}{84} + \tfrac{4043}{84} \nu + \tfrac{499}{84} \nu^2) + \Sigma_{\ell} (\tfrac{3931}{756} \delta + \tfrac{7813}{378} \delta \nu + \tfrac{1025}{252} \delta \nu^2)\bigr) x^2\right]\nonumber \\
+ & + \frac{x^2}{G^2 m^4}\left[S_{\ell}^2 (2 + \kappa_+) + S_{\ell} \Sigma_{\ell} (2 \delta -  \kappa_- + \delta \kappa_+) + \Sigma_{\ell}^2 (- \tfrac{1}{2} \delta \kappa_- + \tfrac{1}{2} \kappa_+ - 2 \nu -  \kappa_+ \nu) + \bigl(S_{\ell}^2 (- \tfrac{404}{63} + \tfrac{55}{42} \delta \kappa_- -  \tfrac{31}{42} \kappa_+ + \tfrac{68}{21} \nu + \tfrac{34}{21} \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (- \tfrac{481}{63} \delta + \tfrac{43}{21} \kappa_- -  \tfrac{43}{21} \delta \kappa_+ + \tfrac{68}{21} \delta \nu -  \tfrac{48}{7} \kappa_- \nu + \tfrac{34}{21} \delta \kappa_+ \nu) + \Sigma_{\ell}^2 (- \tfrac{5}{3} + \tfrac{43}{42} \delta \kappa_- -  \tfrac{43}{42} \kappa_+ + \tfrac{172}{21} \nu -  \tfrac{89}{42} \delta \kappa_- \nu + \tfrac{25}{6} \kappa_+ \nu -  \tfrac{68}{21} \nu^2 -  \tfrac{34}{21} \kappa_+ \nu^2)\bigr) x + \bigl(S_{\ell}^2 (4 \pi + 2 \pi \kappa_+) + S_{\ell} \Sigma_{\ell} (4 \pi \delta - 2 \pi \kappa_- + 2 \pi \delta \kappa_+) + \Sigma_{\ell}^2 (- \pi \delta \kappa_- + \pi \kappa_+ - 4 \pi \nu - 2 \pi \kappa_+ \nu)\bigr) x^{3/2}\right]\nonumber \\
+ & + \frac{x^{7/2}}{G^3 m^6}\left[S_{\ell}^3 (\tfrac{32}{3} -  \tfrac{2}{3} \kappa_+ - 2 \lambda_+) + S_{\ell}^2 \Sigma_{\ell} (\tfrac{52}{3} \delta -  \tfrac{7}{3} \kappa_- -  \tfrac{1}{3} \delta \kappa_+ + 3 \lambda_- - 3 \delta \lambda_+) + S_{\ell} \Sigma_{\ell}^2 (\tfrac{20}{3} - 3 \delta \kappa_- + 3 \kappa_+ + 3 \delta \lambda_- - 3 \lambda_+ -  \tfrac{112}{3} \nu -  \tfrac{2}{3} \kappa_+ \nu + 6 \lambda_+ \nu) + \Sigma_{\ell}^3 (- \tfrac{5}{3} \kappa_- + \tfrac{5}{3} \delta \kappa_+ + \lambda_- -  \delta \lambda_+ -  \tfrac{20}{3} \delta \nu + \tfrac{11}{3} \kappa_- \nu -  \tfrac{1}{3} \delta \kappa_+ \nu - 3 \lambda_- \nu + \delta \lambda_+ \nu)\right] \\
+H_{2,1} &= \frac{i x}{2 G m^2}\left[\Sigma_{\ell} + \bigl(- \tfrac{86}{21} S_{\ell} \delta + \Sigma_{\ell} (- \tfrac{79}{21} + \tfrac{139}{21} \nu)\bigr) x + \Sigma_{\ell} \bigl(- \tfrac{1}{2}i + \pi - 2i \log(2)\bigr) x^{3/2} + \bigl(S_{\ell} (- \tfrac{331}{378} \delta + \tfrac{772}{189} \delta \nu) + \Sigma_{\ell} (\tfrac{293}{378} -  \tfrac{2615}{756} \nu -  \tfrac{1723}{189} \nu^2)\bigr) x^2 + \Bigl(S_{\ell} \bigl(\tfrac{53}{21}i \delta -  \tfrac{86}{21} \pi \delta + \tfrac{172}{21}i \delta \log(2)\bigr) + \Sigma_{\ell} \bigl(\tfrac{79}{42}i -  \tfrac{79}{21} \pi -  \tfrac{1951}{140}i \nu + \tfrac{257}{42} \pi \nu + \tfrac{158}{21}i \log(2) -  \tfrac{257}{21}i \nu \log(2)\bigr)\Bigr) x^{5/2}\right]\nonumber \\
+ & + \frac{i x^{5/2}}{G^2 m^4}\left[S_{\ell}^2 (\delta -  \tfrac{1}{3} \kappa_- + \tfrac{1}{2} \delta \kappa_+) + S_{\ell} \Sigma_{\ell} (- \tfrac{1}{3} -  \tfrac{5}{6} \delta \kappa_- + \tfrac{5}{6} \kappa_+ - 4 \nu - 2 \kappa_+ \nu) + \Sigma_{\ell}^2 (- \tfrac{1}{2} \delta -  \tfrac{5}{12} \kappa_- + \tfrac{5}{12} \delta \kappa_+ -  \delta \nu + \tfrac{4}{3} \kappa_- \nu -  \tfrac{1}{2} \delta \kappa_+ \nu) + \bigl(S_{\ell}^2 (\tfrac{41}{42} \delta + \tfrac{361}{672} \kappa_- + \tfrac{55}{672} \delta \kappa_+ -  \tfrac{1}{7} \delta \nu -  \tfrac{6077}{2016} \kappa_- \nu + \tfrac{39}{224} \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (- \tfrac{29}{21} + \tfrac{51}{112} \delta \kappa_- -  \tfrac{51}{112} \kappa_+ + \tfrac{100}{21} \nu -  \tfrac{1607}{504} \delta \kappa_- \nu + \tfrac{103}{36} \kappa_+ \nu + \tfrac{4}{7} \nu^2 -  \tfrac{39}{56} \kappa_+ \nu^2) + \Sigma_{\ell}^2 (- \tfrac{6}{7} \delta + \tfrac{51}{224} \kappa_- -  \tfrac{51}{224} \delta \kappa_+ + \tfrac{59}{21} \delta \nu -  \tfrac{3967}{2016} \kappa_- \nu + \tfrac{3049}{2016} \delta \kappa_+ \nu + \tfrac{1}{7} \delta \nu^2 + \tfrac{6779}{2016} \kappa_- \nu^2 -  \tfrac{39}{224} \delta \kappa_+ \nu^2)\bigr) x\right]\nonumber \\
+ & + \frac{i x^3}{2 G^3 m^6}\left[S_{\ell}^2 \Sigma_{\ell} (1 + \tfrac{1}{2} \kappa_+) + S_{\ell} \Sigma_{\ell}^2 (\delta -  \tfrac{1}{2} \kappa_- + \tfrac{1}{2} \delta \kappa_+) + \Sigma_{\ell}^3 (- \tfrac{1}{4} \delta \kappa_- + \tfrac{1}{4} \kappa_+ -  \nu -  \tfrac{1}{2} \kappa_+ \nu)\right] \\
+H_{3,3} &= \frac{3i \sqrt{15} x^2}{8 \sqrt{14} G m^2}\left[7 S_{\ell} \delta + \Sigma_{\ell} (3 - 9 \nu) + \bigl(S_{\ell} (- \tfrac{139}{15} \delta + \tfrac{83}{15} \delta \nu) + \Sigma_{\ell} (- \tfrac{43}{5} + 24 \nu + 5 \nu^2)\bigr) x + \Bigl(S_{\ell} \bigl(- \tfrac{213}{10}i \delta + 21 \pi \delta - 42i \delta \log(2) + 42i \delta \log(3)\bigr) + \Sigma_{\ell} \bigl(- \tfrac{63}{5}i + 9 \pi + \tfrac{8797}{270}i \nu - 27 \pi \nu - 18i \log(2) + 54i \nu \log(2) + 18i \log(3) - 54i \nu \log(3)\bigr)\Bigr) x^{3/2}\right]\nonumber \\
+ & + \frac{3i \sqrt{15} x^{5/2}}{8 \sqrt{14} G^2 m^4}\left[S_{\ell}^2 (-6 \delta - 3 \delta \kappa_+) + S_{\ell} \Sigma_{\ell} (-6 + 3 \delta \kappa_- - 3 \kappa_+ + 24 \nu + 12 \kappa_+ \nu) + \Sigma_{\ell}^2 (\tfrac{3}{2} \kappa_- -  \tfrac{3}{2} \delta \kappa_+ + 6 \delta \nu - 6 \kappa_- \nu + 3 \delta \kappa_+ \nu) + \bigl(S_{\ell}^2 (23 \delta -  \tfrac{7}{2} \kappa_- + \tfrac{15}{2} \delta \kappa_+ - 12 \delta \nu + 16 \kappa_- \nu - 6 \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (26 - 11 \delta \kappa_- + 11 \kappa_+ - 128 \nu + 22 \delta \kappa_- \nu - 52 \kappa_+ \nu + 48 \nu^2 + 24 \kappa_+ \nu^2) + \Sigma_{\ell}^2 (3 \delta -  \tfrac{11}{2} \kappa_- + \tfrac{11}{2} \delta \kappa_+ - 32 \delta \nu + \tfrac{59}{2} \kappa_- \nu -  \tfrac{37}{2} \delta \kappa_+ \nu + 12 \delta \nu^2 - 28 \kappa_- \nu^2 + 6 \delta \kappa_+ \nu^2)\bigr) x\right] \\
+H_{3,2} &= \frac{2 \sqrt{5} x^{3/2}}{3 \sqrt{7} G m^2}\left[S_{\ell} + \Sigma_{\ell} \delta + \bigl(S_{\ell} (- \tfrac{13}{2} + \tfrac{73}{6} \nu) + \Sigma_{\ell} (- \tfrac{31}{6} \delta + 5 \delta \nu)\bigr) x + \bigl((-i + 2 \pi) S_{\ell} + \Sigma_{\ell} (-3i \delta + 2 \pi \delta)\bigr) x^{3/2} + \bigl(S_{\ell} (\tfrac{4859}{1320} -  \tfrac{15413}{792} \nu -  \tfrac{419}{88} \nu^2) + \Sigma_{\ell} (\tfrac{19241}{3960} \delta -  \tfrac{808}{55} \delta \nu -  \tfrac{16153}{3960} \delta \nu^2)\bigr) x^2\right]\nonumber \\
+ & + \frac{8 \sqrt{5} x^3}{9 \sqrt{7} G^2 m^4}\left[S_{\ell}^2 (-1 -  \tfrac{3}{8} \delta \kappa_- + \tfrac{9}{8} \kappa_+ -  \tfrac{9}{2} \nu -  \tfrac{9}{4} \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (- \tfrac{5}{2} \delta -  \tfrac{3}{2} \kappa_- + \tfrac{3}{2} \delta \kappa_+ -  \tfrac{9}{2} \delta \nu + \tfrac{15}{4} \kappa_- \nu -  \tfrac{9}{4} \delta \kappa_+ \nu) + \Sigma_{\ell}^2 (- \tfrac{3}{2} -  \tfrac{3}{4} \delta \kappa_- + \tfrac{3}{4} \kappa_+ + 3 \nu + \tfrac{3}{2} \delta \kappa_- \nu - 3 \kappa_+ \nu + \tfrac{9}{2} \nu^2 + \tfrac{9}{4} \kappa_+ \nu^2)\right]\nonumber \\
+ & + \frac{4 \sqrt{5} x^{7/2}}{3 \sqrt{7} G^3 m^6}\left[S_{\ell}^3 (1 + \tfrac{1}{2} \kappa_+) + S_{\ell}^2 \Sigma_{\ell} (2 \delta -  \tfrac{1}{2} \kappa_- + \delta \kappa_+) + S_{\ell} \Sigma_{\ell}^2 (1 -  \tfrac{3}{4} \delta \kappa_- + \tfrac{3}{4} \kappa_+ - 5 \nu -  \tfrac{5}{2} \kappa_+ \nu) + \Sigma_{\ell}^3 (- \tfrac{1}{4} \kappa_- + \tfrac{1}{4} \delta \kappa_+ -  \delta \nu + \kappa_- \nu -  \tfrac{1}{2} \delta \kappa_+ \nu)\right] \\
+H_{3,1} &= \frac{i x^2}{24 \sqrt{14} G m^2}\left[S_{\ell} \delta + \Sigma_{\ell} (5 - 15 \nu) + \bigl(S_{\ell} (- \tfrac{79}{9} \delta + \tfrac{443}{9} \delta \nu) + \Sigma_{\ell} (- \tfrac{149}{9} + \tfrac{700}{9} \nu -  \tfrac{841}{9} \nu^2)\bigr) x + \Bigl(S_{\ell} \bigl(\tfrac{47}{10}i \delta + \pi \delta - 2i \delta \log(2)\bigr) + \Sigma_{\ell} \bigl(-7i + 5 \pi + \tfrac{11}{10}i \nu - 15 \pi \nu - 10i \log(2) + 30i \nu \log(2)\bigr)\Bigr) x^{3/2}\right]\nonumber \\
+ & + \frac{i x^{5/2}}{4 \sqrt{14} G^2 m^4}\left[S_{\ell}^2 (\delta -  \tfrac{4}{3} \kappa_- + \tfrac{1}{2} \delta \kappa_+) + S_{\ell} \Sigma_{\ell} (1 -  \tfrac{11}{6} \delta \kappa_- + \tfrac{11}{6} \kappa_+ - 4 \nu - 2 \kappa_+ \nu) + \Sigma_{\ell}^2 (- \tfrac{11}{12} \kappa_- + \tfrac{11}{12} \delta \kappa_+ -  \delta \nu + \tfrac{7}{3} \kappa_- \nu -  \tfrac{1}{2} \delta \kappa_+ \nu) + \bigl(S_{\ell}^2 (- \tfrac{149}{18} \delta + \tfrac{13}{4} \kappa_- -  \tfrac{53}{36} \delta \kappa_+ -  \tfrac{22}{9} \delta \nu -  \tfrac{16}{9} \kappa_- \nu -  \tfrac{11}{9} \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (- \tfrac{115}{9} + \tfrac{85}{18} \delta \kappa_- -  \tfrac{85}{18} \kappa_+ + 40 \nu -  \tfrac{5}{9} \delta \kappa_- \nu + \tfrac{58}{9} \kappa_+ \nu + \tfrac{88}{9} \nu^2 + \tfrac{44}{9} \kappa_+ \nu^2) + \Sigma_{\ell}^2 (- \tfrac{9}{2} \delta + \tfrac{85}{36} \kappa_- -  \tfrac{85}{36} \delta \kappa_+ + \tfrac{100}{9} \delta \nu -  \tfrac{233}{36} \kappa_- \nu + \tfrac{7}{4} \delta \kappa_+ \nu + \tfrac{22}{9} \delta \nu^2 -  \tfrac{2}{3} \kappa_- \nu^2 + \tfrac{11}{9} \delta \kappa_+ \nu^2)\bigr) x\right] \\
+H_{4,4} &= \frac{32 x^{5/2}}{9 \sqrt{35} G m^2}\left[S_{\ell} (\tfrac{19}{3} - 19 \nu) + \Sigma_{\ell} (3 \delta - 6 \delta \nu) + \bigl(S_{\ell} (- \tfrac{437}{22} + \tfrac{10063}{132} \nu -  \tfrac{971}{44} \nu^2) + \Sigma_{\ell} (- \tfrac{153}{11} \delta + \tfrac{2165}{66} \delta \nu + \tfrac{67}{44} \delta \nu^2)\bigr) x\right]\nonumber \\
+ & + \frac{8 \sqrt{5} x^3}{9 \sqrt{7} G^2 m^4}\left[S_{\ell}^2 (-4 - 2 \kappa_+ + 12 \nu + 6 \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (-4 \delta + 2 \kappa_- - 2 \delta \kappa_+ + 12 \delta \nu - 6 \kappa_- \nu + 6 \delta \kappa_+ \nu) + \Sigma_{\ell}^2 (\delta \kappa_- -  \kappa_+ + 4 \nu - 3 \delta \kappa_- \nu + 5 \kappa_+ \nu - 12 \nu^2 - 6 \kappa_+ \nu^2)\right] \\
+H_{4,3} &= \frac{9i \sqrt{5} x^2}{8 \sqrt{14} G m^2}\left[- S_{\ell} \delta + \Sigma_{\ell} (-1 + 3 \nu) + \bigl(S_{\ell} (\tfrac{1303}{165} \delta -  \tfrac{1451}{165} \delta \nu) + \Sigma_{\ell} (\tfrac{361}{55} -  \tfrac{284}{11} \nu + \tfrac{163}{11} \nu^2)\bigr) x + \Bigl(S_{\ell} \bigl(\tfrac{53}{10}i \delta - 3 \pi \delta + 6i \delta \log(2) - 6i \delta \log(3)\bigr) + \Sigma_{\ell} \bigl(\tfrac{32}{5}i - 3 \pi -  \tfrac{6007}{270}i \nu + 9 \pi \nu + 6i \log(2) - 18i \nu \log(2) - 6i \log(3) + 18i \nu \log(3)\bigr)\Bigr) x^{3/2}\right]\nonumber \\
+ & + \frac{9i \sqrt{5} x^{7/2}}{8 \sqrt{14} G^2 m^4}\left[S_{\ell}^2 (3 \delta + \tfrac{3}{5} \kappa_- -  \tfrac{8}{5} \delta \kappa_+ + 4 \delta \nu -  \tfrac{6}{5} \kappa_- \nu + 2 \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (6 + \tfrac{11}{5} \delta \kappa_- -  \tfrac{11}{5} \kappa_+ - 12 \nu -  \tfrac{16}{5} \delta \kappa_- \nu + \tfrac{48}{5} \kappa_+ \nu - 16 \nu^2 - 8 \kappa_+ \nu^2) + \Sigma_{\ell}^2 (3 \delta + \tfrac{11}{10} \kappa_- -  \tfrac{11}{10} \delta \kappa_+ - 4 \delta \nu -  \tfrac{27}{5} \kappa_- \nu + \tfrac{16}{5} \delta \kappa_+ \nu - 4 \delta \nu^2 + \tfrac{26}{5} \kappa_- \nu^2 - 2 \delta \kappa_+ \nu^2)\right] \\
+H_{4,2} &= \frac{4 x^{5/2}}{21 \sqrt{5} G m^2}\left[S_{\ell} (- \tfrac{1}{9} + \tfrac{1}{3} \nu) + \Sigma_{\ell} (\delta - 2 \delta \nu) + \bigl(S_{\ell} (- \tfrac{43}{22} + \tfrac{6653}{396} \nu -  \tfrac{1387}{44} \nu^2) + \Sigma_{\ell} (- \tfrac{313}{66} \delta + \tfrac{3349}{198} \delta \nu -  \tfrac{725}{44} \delta \nu^2)\bigr) x\right]\nonumber \\
+ & + \frac{4 x^3}{21 \sqrt{5} G^2 m^4}\left[S_{\ell}^2 (\tfrac{5}{3} -  \tfrac{5}{4} \delta \kappa_- + \tfrac{25}{12} \kappa_+ - 5 \nu -  \tfrac{5}{2} \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (\tfrac{5}{3} \delta -  \tfrac{10}{3} \kappa_- + \tfrac{10}{3} \delta \kappa_+ - 5 \delta \nu + \tfrac{15}{2} \kappa_- \nu -  \tfrac{5}{2} \delta \kappa_+ \nu) + \Sigma_{\ell}^2 (- \tfrac{5}{3} \delta \kappa_- + \tfrac{5}{3} \kappa_+ -  \tfrac{5}{3} \nu + \tfrac{5}{2} \delta \kappa_- \nu -  \tfrac{35}{6} \kappa_+ \nu + 5 \nu^2 + \tfrac{5}{2} \kappa_+ \nu^2)\right] \\
+H_{4,1} &= \frac{i \sqrt{5} x^2}{168 \sqrt{2} G m^2}\left[S_{\ell} \delta + \Sigma_{\ell} (1 - 3 \nu) + \bigl(S_{\ell} (- \tfrac{1147}{165} \delta + \tfrac{1139}{165} \delta \nu) + \Sigma_{\ell} (- \tfrac{309}{55} + \tfrac{232}{11} \nu -  \tfrac{111}{11} \nu^2)\bigr) x + \Bigl(S_{\ell} \bigl(- \tfrac{53}{30}i \delta + \pi \delta - 2i \delta \log(2)\bigr) + \Sigma_{\ell} \bigl(- \tfrac{32}{15}i + \pi + \tfrac{181}{30}i \nu - 3 \pi \nu - 2i \log(2) + 6i \nu \log(2)\bigr)\Bigr) x^{3/2}\right]\nonumber \\
+ & + \frac{i \sqrt{5} x^{7/2}}{168 \sqrt{2} G^2 m^4}\left[S_{\ell}^2 (-3 \delta -  \tfrac{7}{5} \kappa_- + \tfrac{12}{5} \delta \kappa_+ - 4 \delta \nu + \tfrac{14}{5} \kappa_- \nu - 2 \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (-6 -  \tfrac{19}{5} \delta \kappa_- + \tfrac{19}{5} \kappa_+ + 12 \nu + \tfrac{24}{5} \delta \kappa_- \nu -  \tfrac{72}{5} \kappa_+ \nu + 16 \nu^2 + 8 \kappa_+ \nu^2) + \Sigma_{\ell}^2 (-3 \delta -  \tfrac{19}{10} \kappa_- + \tfrac{19}{10} \delta \kappa_+ + 4 \delta \nu + \tfrac{43}{5} \kappa_- \nu -  \tfrac{24}{5} \delta \kappa_+ \nu + 4 \delta \nu^2 -  \tfrac{34}{5} \kappa_- \nu^2 + 2 \delta \kappa_+ \nu^2)\right] \\
+H_{5,5} &= \frac{3125i x^3}{36 \sqrt{66} G m^2}\left[S_{\ell} (- \tfrac{1}{2} \delta + \delta \nu) + \Sigma_{\ell} (- \tfrac{1}{4} + \tfrac{5}{4} \nu -  \tfrac{5}{4} \nu^2)\right]\nonumber \\
+ & + \frac{3125i x^{7/2}}{96 \sqrt{66} G^2 m^4}\left[S_{\ell}^2 (\delta + \tfrac{1}{2} \delta \kappa_+ - 2 \delta \nu -  \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (1 -  \tfrac{1}{2} \delta \kappa_- + \tfrac{1}{2} \kappa_+ - 6 \nu + \delta \kappa_- \nu - 3 \kappa_+ \nu + 8 \nu^2 + 4 \kappa_+ \nu^2) + \Sigma_{\ell}^2 (- \tfrac{1}{4} \kappa_- + \tfrac{1}{4} \delta \kappa_+ -  \delta \nu + \tfrac{3}{2} \kappa_- \nu -  \delta \kappa_+ \nu + 2 \delta \nu^2 - 2 \kappa_- \nu^2 + \delta \kappa_+ \nu^2)\right] \\
+H_{5,4} &= \frac{32 x^{5/2}}{3 \sqrt{165} G m^2}\left[S_{\ell} (-1 + 3 \nu) + \Sigma_{\ell} (- \delta + 2 \delta \nu) + \bigl(S_{\ell} (\tfrac{241}{26} -  \tfrac{2939}{78} \nu + \tfrac{633}{26} \nu^2) + \Sigma_{\ell} (\tfrac{619}{78} \delta -  \tfrac{300}{13} \delta \nu + \tfrac{817}{78} \delta \nu^2)\bigr) x\right] \\
+H_{5,3} &= \frac{3i \sqrt{3} x^3}{4 \sqrt{110} G m^2}\left[S_{\ell} (\tfrac{1}{2} \delta -  \delta \nu) + \Sigma_{\ell} (- \tfrac{3}{4} + \tfrac{15}{4} \nu -  \tfrac{15}{4} \nu^2)\right]\nonumber \\
+ & + \frac{9i \sqrt{15} x^{7/2}}{32 \sqrt{22} G^2 m^4}\left[S_{\ell}^2 (- \delta + \tfrac{4}{5} \kappa_- -  \tfrac{13}{10} \delta \kappa_+ + 2 \delta \nu -  \tfrac{8}{5} \kappa_- \nu + \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (-1 + \tfrac{21}{10} \delta \kappa_- -  \tfrac{21}{10} \kappa_+ + 6 \nu -  \tfrac{13}{5} \delta \kappa_- \nu + \tfrac{39}{5} \kappa_+ \nu - 8 \nu^2 - 4 \kappa_+ \nu^2) + \Sigma_{\ell}^2 (\tfrac{21}{20} \kappa_- -  \tfrac{21}{20} \delta \kappa_+ + \delta \nu -  \tfrac{47}{10} \kappa_- \nu + \tfrac{13}{5} \delta \kappa_+ \nu - 2 \delta \nu^2 + \tfrac{18}{5} \kappa_- \nu^2 -  \delta \kappa_+ \nu^2)\right] \\
+H_{5,2} &= \frac{2 x^{5/2}}{9 \sqrt{55} G m^2}\left[S_{\ell} (1 - 3 \nu) + \Sigma_{\ell} (\delta - 2 \delta \nu) + \bigl(S_{\ell} (- \tfrac{213}{26} + \tfrac{2519}{78} \nu -  \tfrac{493}{26} \nu^2) + \Sigma_{\ell} (- \tfrac{535}{78} \delta + \tfrac{244}{13} \delta \nu -  \tfrac{565}{78} \delta \nu^2)\bigr) x\right] \\
+H_{5,1} &= \frac{i x^3}{216 \sqrt{385} G m^2}\left[S_{\ell} (\delta - 2 \delta \nu) + \Sigma_{\ell} (\tfrac{7}{2} -  \tfrac{35}{2} \nu + \tfrac{35}{2} \nu^2)\right]\nonumber \\
+ & + \frac{i \sqrt{5} x^{7/2}}{288 \sqrt{77} G^2 m^4}\left[S_{\ell}^2 (\delta -  \tfrac{6}{5} \kappa_- + \tfrac{17}{10} \delta \kappa_+ - 2 \delta \nu + \tfrac{12}{5} \kappa_- \nu -  \delta \kappa_+ \nu) + S_{\ell} \Sigma_{\ell} (1 -  \tfrac{29}{10} \delta \kappa_- + \tfrac{29}{10} \kappa_+ - 6 \nu + \tfrac{17}{5} \delta \kappa_- \nu -  \tfrac{51}{5} \kappa_+ \nu + 8 \nu^2 + 4 \kappa_+ \nu^2) + \Sigma_{\ell}^2 (- \tfrac{29}{20} \kappa_- + \tfrac{29}{20} \delta \kappa_+ -  \delta \nu + \tfrac{63}{10} \kappa_- \nu -  \tfrac{17}{5} \delta \kappa_+ \nu + 2 \delta \nu^2 -  \tfrac{22}{5} \kappa_- \nu^2 + \delta \kappa_+ \nu^2)\right] \\
+H_{6,6} &= \frac{3132 x^{7/2}}{35 \sqrt{143} G m^2}\left[S_{\ell} (-1 + 5 \nu - 5 \nu^2) + \Sigma_{\ell} (- \tfrac{15}{29} \delta + \tfrac{60}{29} \delta \nu -  \tfrac{45}{29} \delta \nu^2)\right] \\
+H_{6,5} &= \frac{3125i x^3}{144 \sqrt{429} G m^2}\left[S_{\ell} (\delta - 2 \delta \nu) + \Sigma_{\ell} (1 - 5 \nu + 5 \nu^2)\right] \\
+H_{6,4} &= \frac{256 \sqrt{2} x^{7/2}}{385 \sqrt{39} G m^2}\left[S_{\ell} (1 - 5 \nu + 5 \nu^2) + \Sigma_{\ell} (- \tfrac{5}{9} \delta + \tfrac{20}{9} \delta \nu -  \tfrac{5}{3} \delta \nu^2)\right] \\
+H_{6,3} &= \frac{81i x^3}{176 \sqrt{65} G m^2}\left[S_{\ell} (- \delta + 2 \delta \nu) + \Sigma_{\ell} (-1 + 5 \nu - 5 \nu^2)\right] \\
+H_{6,2} &= \frac{4 x^{7/2}}{693 \sqrt{65} G m^2}\left[S_{\ell} (1 - 5 \nu + 5 \nu^2) + \Sigma_{\ell} (\tfrac{17}{3} \delta -  \tfrac{68}{3} \delta \nu + 17 \delta \nu^2)\right] \\
+H_{6,1} &= \frac{i x^3}{2376 \sqrt{26} G m^2}\left[S_{\ell} (\delta - 2 \delta \nu) + \Sigma_{\ell} (1 - 5 \nu + 5 \nu^2)\right] \\
+H_{7,7} &= 0 \\H_{7,6} &= \frac{324 \sqrt{3} x^{7/2}}{35 \sqrt{143} G m^2}\left[S_{\ell} (1 - 5 \nu + 5 \nu^2) + \Sigma_{\ell} (\delta - 4 \delta \nu + 3 \delta \nu^2)\right] \\
+H_{7,5} &= 0 \\H_{7,4} &= \frac{x^{7/2}}{G m^2}\left[S_{\ell} (- \frac{512 \sqrt{2}}{1365 \sqrt{33}} + \frac{512 \sqrt{2} \nu}{273 \sqrt{33}} -  \frac{512 \sqrt{2} \nu^2}{273 \sqrt{33}}) + \Sigma_{\ell} (- \frac{512 \sqrt{2} \delta}{1365 \sqrt{33}} + \frac{2048 \sqrt{2} \delta \nu}{1365 \sqrt{33}} -  \frac{512 \sqrt{2} \delta \nu^2}{455 \sqrt{33}})\right] \\
+H_{7,3} &= 0 \\H_{7,2} &= \frac{4 x^{7/2}}{3003 \sqrt{3} G m^2}\left[S_{\ell} (1 - 5 \nu + 5 \nu^2) + \Sigma_{\ell} (\delta - 4 \delta \nu + 3 \delta \nu^2)\right] \\
+H_{7,1} &= 0 \\
+\end{align}\end{subequations}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Effective-One-Body factorized modes}
+\label{subsec:eob} 
+
+\begin{subequations}
+\input{glm/g21.txt}
+\input{glm/g22.txt}
+\input{glm/g31.txt}
+\input{glm/g32.txt}
+\input{glm/g33.txt}
+\input{glm/g41.txt}
+\input{glm/g42.txt}
+\input{glm/g43.txt}
+\input{glm/g44.txt}
+\input{glm/g51.txt}
+\input{glm/g52.txt}
+\input{glm/g53.txt}
+\input{glm/g54.txt}
+\input{glm/g55.txt}
+\input{glm/g61.txt}
+\input{glm/g62.txt}
+\input{glm/g63.txt}
+\input{glm/g64.txt}
+\input{glm/g65.txt}
+\input{glm/g66.txt}
+\input{glm/g72.txt}
+\input{glm/g74.txt}
+\input{glm/g76.txt}
+\end{subequations}
+
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Comparison to the test-particle limit}
+\label{subsec:testparticle}
+
+A useful check of our calculations is provided by comparing to the computation of the gravitational waves spin-weighted spherical modes emitted by a test particle orbiting a Kerr black hole, as performed in~\cite{}. These computations were initiated in~\cite{}. Here we will compare directly to the results of~\cite{}. In translating between the different gauges used in~\cite{} and in the present work, a constant must be adjusted and was fixed in~\cite{} (see their Eq.~()). Thanks to this, we can directly compare to the results of~\cite{} by simply identifying $v_{0} = x_{0}^{1/2}$.
+
+We find, however, a discrepancy regarding one term in the SO part of $h_{21}$ at $\calO(7)$, or $\calO(6)$ relative to the leading order. This term corresponds to SO $\calO(6)$ terms in the current quadrupole $V_{ij}$ and $J_{ij}$, is interestingly unique in several aspects. It is the only term that is computed at the 2.5PN relative order in our calculation
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Source moments of a boosted Kerr black hole}
+\label{subsec:Kerrboost}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Acknowledgements}
+We are grateful to [] for interesting discussions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Appendix} \label{app:}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{ListeRef_SpinModes}
+
+\end{document}

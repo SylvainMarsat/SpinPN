@@ -1,0 +1,7 @@
+\begin{align}
+\delta\left(g_{33}\right)_{S}=& v^{3}\Bigg[\Bigg.\delta  \left(\frac{5 \nu }{2}-2\right) \chi _s+\left(\frac{19 \nu }{2}-2\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.\frac{3 \delta  \chi _s^2}{2}+(3-12 \nu ) \chi _a \chi _s+\delta  \left(\frac{3}{2}-6 \nu \right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+& +v^{5}\Bigg[\Bigg.\delta  \left(\frac{241 \nu ^2}{30}+\frac{11 \nu }{20}+\frac{2}{3}\right) \chi _s+\left(\frac{407 \nu ^2}{30}-\frac{593 \nu }{60}+\frac{2}{3}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{6}\Bigg[\Bigg.\delta  \left(\frac{236 i \nu }{27}-\frac{133 i}{20}\right) \chi _s+\left(\frac{3502 i \nu }{135}-\frac{133 i}{20}\right) \chi _a+\delta  \left(14 \nu ^2-\frac{35 \nu }{2}-\frac{5}{4}\right) \chi _s^2\nonumber\\
+ &+\left(60 \nu ^2-9 \nu -\frac{5}{2}\right) \chi _a \chi _s+\delta  \left(-12 \nu ^2+\frac{7 \nu }{2}-\frac{5}{4}\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+\end{align}

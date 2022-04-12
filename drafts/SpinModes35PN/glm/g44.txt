@@ -1,0 +1,6 @@
+\begin{align}
+\left(1-3 \nu\right)\left(g_{44}\right)_{S}=& v^{3}\Bigg[\Bigg.\left(-\frac{56 \nu ^2}{5}+\frac{164 \nu }{15}-\frac{8}{3}\right) \chi _s+\delta  \left(\frac{52 \nu }{5}-\frac{8}{3}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+& +v^{4}\Bigg[\Bigg.(2-6 \nu ) \chi _s^2+\delta  (4-12 \nu ) \chi _a \chi _s\nonumber\\
+ &+\left(24 \nu ^2-14 \nu +2\right) \chi _a^2\Bigg.\Bigg]\nonumber\\
+& +v^{5}\Bigg[\Bigg.\left(-\frac{442 \nu ^3}{11}+\frac{5326 \nu ^2}{165}-\frac{1167 \nu }{55}+\frac{262}{55}\right) \chi _s+\delta  \left(\frac{1038 \nu ^2}{55}-\frac{369 \nu }{11}+\frac{262}{55}\right) \chi _a\Bigg.\Bigg]\nonumber\\
+\end{align}
