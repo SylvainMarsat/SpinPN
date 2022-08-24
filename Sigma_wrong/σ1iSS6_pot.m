@@ -4,7 +4,10 @@
       m1)]]/c^6 + 
  ParamD[t][Guard[(\[Kappa]1*dirac1[]*Scalar[S1ij[-a, -b]*S1ij[a, b]]*
       PD[i][V1[]])/(2*m1)]]/c^6 - 
- (dirac1[]*S1ij[-a, -b]*S1ij[i, b]*ParamD[t][PD[a][V1[]]])/(2*c^6*m1) + 
+ (dirac1[]*S1ij[-a, -b]*S1ij[i, b]*ParamD[t][PD[a][V1[]]])/(2*c^6*m1) - 
+ (3*\[Kappa]1*dirac1[]*S1ij[-a, -b]*S1ij[i, b]*ParamD[t][PD[a][V1[]]])/
+  (8*c^6*m1) + (3*\[Kappa]1*dirac1[]*Scalar[S1ij[-a, -b]*S1ij[a, b]]*
+   ParamD[t][PD[i][V1[]]])/(8*c^6*m1) + 
  ParamD[t][PD[-k][Guard[-(\[Kappa]1*dirac1[]*S1ij[i, a]*S1ij[k, -a])/
       (2*m1)]]]/c^4 - 
  (2*V1[]*ParamD[t][PD[-k][Guard[-(\[Kappa]1*dirac1[]*S1ij[i, a]*S1ij[k, -a])/
@@ -18,13 +21,18 @@
  ParamD[t][PD[-k][Guard[(\[Kappa]1*dirac1[]*S1ij[-a, -b]*S1ij[k, b]*v1i[a]*
        v1i[i])/(2*m1)]]]/c^6 + 
  ParamD[t][PD[-k][Guard[(\[Kappa]1*dirac1[]*S1ij[-a, -b]*S1ij[i, b]*v1i[a]*
-       v1i[k])/(2*m1)]]]/c^6 + (dirac1[]*S1ij[-b, j]*S1ij[i, b]*v1i[a]*
-   PD[-j][PD[-a][V1[]]])/(2*c^6*m1) + 
+       v1i[k])/(2*m1)]]]/c^6 + 
+ (3*\[Kappa]1*dirac1[]*Scalar[S1ij[-a, -b]*S1ij[a, b]]*v1i[a]*
+   PD[i][PD[-a][V1[]]])/(8*c^6*m1) + 
+ (dirac1[]*S1ij[-b, j]*S1ij[i, b]*v1i[a]*PD[-j][PD[-a][V1[]]])/(2*c^6*m1) + 
  (\[Kappa]1*dirac1[]*S1ij[-b, j]*S1ij[i, b]*v1i[a]*PD[-j][PD[-a][V1[]]])/
   (2*c^6*m1) + (dirac1[]*S1ij[b, j]*S1ij[i, a]*PD[-j][PD[-a][Vi1[-b]]])/
   (c^6*m1) - (dirac1[]*S1ij[-a, j]*S1ij[i, b]*v1i[a]*PD[-j][PD[-b][V1[]]])/
-  (c^6*m1) + (\[Kappa]1*dirac1[]*S1ij[-a, b]*S1ij[-b, j]*v1i[a]*
-   PD[-j][PD[i][V1[]]])/(2*c^6*m1) + 
+  (c^6*m1) - (3*\[Kappa]1*dirac1[]*S1ij[-a, j]*S1ij[a, b]*
+   PD[-j][PD[-b][Vi1[i]]])/(4*c^6*m1) + 
+ (7*\[Kappa]1*dirac1[]*S1ij[-a, b]*S1ij[-b, j]*v1i[a]*PD[-j][PD[i][V1[]]])/
+  (8*c^6*m1) + (3*\[Kappa]1*dirac1[]*S1ij[-a, j]*S1ij[a, b]*
+   PD[-j][PD[i][Vi1[-b]]])/(4*c^6*m1) + 
  PD[-k][Guard[(\[Kappa]1*dirac1[]*S1ij[i, a]*S1ij[k, -a]*
       Scalar[v1i[a]*PD[-a][V1[]]])/m1]]/c^6 + 
  PD[-k][Guard[(\[Kappa]1*dirac1[]*S1ij[i, a]*S1ij[k, -a]*ParamD[t][V1[]])/

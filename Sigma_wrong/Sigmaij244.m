@@ -45,22 +45,30 @@
  (G^2*m1^2*m2*n1i[i]*n1i[j]*r2[]^2)/(8*c^2*Pi*r1[]^4*r12[]^3) + 
  (3*G*n1i[a]*n1i[j]*S1ij[-a, -b]*S1ij[i, b])/(2*c^4*Pi*r1[]^6) - 
  (3*G*\[Kappa]1*n1i[a]*n1i[j]*S1ij[-a, -b]*S1ij[i, b])/(4*c^4*Pi*r1[]^6) + 
- (G*dirac1[]*n1i[a]*n1i[j]*S1ij[-a, -b]*S1ij[i, b])/(2*c^4*r1[]^3) - 
- (3*G*\[Kappa]1*dirac1[a]*n1i[j]*S1ij[-a, -b]*S1ij[i, b])/(10*c^4*r1[]^2) + 
- (G*m2*\[Kappa]1*dirac1[a]*n12i[j]*S1ij[-a, -b]*S1ij[i, b])/
-  (2*c^4*m1*r12[]^2) - (3*G*m2*\[Kappa]1*dirac1[a]*n2i[j]*S1ij[-a, -b]*
+ (G*dirac1[]*n1i[a]*n1i[j]*S1ij[-a, -b]*S1ij[i, b])/(2*c^4*r1[]^3) + 
+ (9*G*\[Kappa]1*dirac1[]*n1i[a]*n1i[j]*S1ij[-a, -b]*S1ij[i, b])/
+  (8*c^4*r1[]^3) - (3*G*\[Kappa]1*dirac1[a]*n1i[j]*S1ij[-a, -b]*S1ij[i, b])/
+  (10*c^4*r1[]^2) + (G*m2*\[Kappa]1*dirac1[a]*n12i[j]*S1ij[-a, -b]*
+   S1ij[i, b])/(2*c^4*m1*r12[]^2) + 
+ (9*G*m2*\[Kappa]1*dirac1[]*n2i[a]*n2i[j]*S1ij[-a, -b]*S1ij[i, b])/
+  (8*c^4*m1*r2[]^3) - (3*G*m2*\[Kappa]1*dirac1[a]*n2i[j]*S1ij[-a, -b]*
    S1ij[i, b])/(10*c^4*m1*r2[]^2) - 
  (3*G*m2*\[Kappa]1*n1i[a]*n2i[j]*S1ij[-a, -b]*S1ij[i, b])/
   (4*c^4*m1*Pi*r1[]^4*r2[]^2) - (G*S1ij[i, a]*S1ij[j, -a])/(c^4*Pi*r1[]^6) - 
- (2*G*dirac1[]*S1ij[i, a]*S1ij[j, -a])/(3*c^4*r1[]^3) + 
+ (2*G*dirac1[]*S1ij[i, a]*S1ij[j, -a])/(3*c^4*r1[]^3) - 
+ (3*G*\[Kappa]1*dirac1[]*S1ij[i, a]*S1ij[j, -a])/(4*c^4*r1[]^3) - 
+ (3*G*m2*\[Kappa]1*dirac1[]*S1ij[i, a]*S1ij[j, -a])/(4*c^4*m1*r2[]^3) + 
  (3*G*n1i[a]*n1i[b]*S1ij[i, -a]*S1ij[j, -b])/(4*c^4*Pi*r1[]^6) + 
  (G*dirac1[]*n1i[a]*n1i[b]*S1ij[i, -a]*S1ij[j, -b])/(c^4*r1[]^3) + 
  (3*G*n1i[a]*n1i[i]*S1ij[-a, -b]*S1ij[j, b])/(2*c^4*Pi*r1[]^6) - 
  (3*G*\[Kappa]1*n1i[a]*n1i[i]*S1ij[-a, -b]*S1ij[j, b])/(4*c^4*Pi*r1[]^6) + 
- (G*dirac1[]*n1i[a]*n1i[i]*S1ij[-a, -b]*S1ij[j, b])/(2*c^4*r1[]^3) - 
- (3*G*\[Kappa]1*dirac1[a]*n1i[i]*S1ij[-a, -b]*S1ij[j, b])/(10*c^4*r1[]^2) + 
- (G*m2*\[Kappa]1*dirac1[a]*n12i[i]*S1ij[-a, -b]*S1ij[j, b])/
-  (2*c^4*m1*r12[]^2) - (3*G*m2*\[Kappa]1*dirac1[a]*n2i[i]*S1ij[-a, -b]*
+ (G*dirac1[]*n1i[a]*n1i[i]*S1ij[-a, -b]*S1ij[j, b])/(2*c^4*r1[]^3) + 
+ (9*G*\[Kappa]1*dirac1[]*n1i[a]*n1i[i]*S1ij[-a, -b]*S1ij[j, b])/
+  (8*c^4*r1[]^3) - (3*G*\[Kappa]1*dirac1[a]*n1i[i]*S1ij[-a, -b]*S1ij[j, b])/
+  (10*c^4*r1[]^2) + (G*m2*\[Kappa]1*dirac1[a]*n12i[i]*S1ij[-a, -b]*
+   S1ij[j, b])/(2*c^4*m1*r12[]^2) + 
+ (9*G*m2*\[Kappa]1*dirac1[]*n2i[a]*n2i[i]*S1ij[-a, -b]*S1ij[j, b])/
+  (8*c^4*m1*r2[]^3) - (3*G*m2*\[Kappa]1*dirac1[a]*n2i[i]*S1ij[-a, -b]*
    S1ij[j, b])/(10*c^4*m1*r2[]^2) - 
  (3*G*m2*\[Kappa]1*n1i[a]*n2i[i]*S1ij[-a, -b]*S1ij[j, b])/
   (4*c^4*m1*Pi*r1[]^4*r2[]^2) + (G*dirac1[]*n2i[a]*n2i[j]*S1ij[i, b]*
@@ -75,20 +83,25 @@
  (G*dirac2[]*n1i[a]*n1i[b]*S1ij[j, -a]*S2ij[i, -b])/(2*c^4*r1[]^3) + 
  (G*dirac1[]*n2i[a]*n2i[b]*S1ij[j, -a]*S2ij[i, -b])/(2*c^4*r2[]^3) + 
  (3*G*n1i[a]*n1i[b]*S1ij[j, -a]*S2ij[i, -b])/(2*c^4*Pi*r1[]^3*r2[]^3) + 
- (3*G*n2i[a]*n2i[b]*S1ij[j, -a]*S2ij[i, -b])/(2*c^4*Pi*r1[]^3*r2[]^3) - 
- (3*G*m1*\[Kappa]2*dirac2[a]*n1i[j]*S2ij[-a, -b]*S2ij[i, b])/
-  (10*c^4*m2*r1[]^2) - (G*m1*\[Kappa]2*dirac2[a]*n12i[j]*S2ij[-a, -b]*
-   S2ij[i, b])/(2*c^4*m2*r12[]^2) + 
- (3*G*n2i[a]*n2i[j]*S2ij[-a, -b]*S2ij[i, b])/(2*c^4*Pi*r2[]^6) - 
- (3*G*\[Kappa]2*n2i[a]*n2i[j]*S2ij[-a, -b]*S2ij[i, b])/(4*c^4*Pi*r2[]^6) - 
- (3*G*m1*\[Kappa]2*n1i[j]*n2i[a]*S2ij[-a, -b]*S2ij[i, b])/
-  (4*c^4*m2*Pi*r1[]^2*r2[]^4) + (G*dirac2[]*n2i[a]*n2i[j]*S2ij[-a, -b]*
-   S2ij[i, b])/(2*c^4*r2[]^3) - (3*G*\[Kappa]2*dirac2[a]*n2i[j]*S2ij[-a, -b]*
-   S2ij[i, b])/(10*c^4*r2[]^2) - (G*dirac2[]*S1ij[i, a]*S2ij[j, -a])/
-  (3*c^4*r1[]^3) - (G*dirac1[]*S1ij[i, a]*S2ij[j, -a])/(3*c^4*r2[]^3) - 
+ (3*G*n2i[a]*n2i[b]*S1ij[j, -a]*S2ij[i, -b])/(2*c^4*Pi*r1[]^3*r2[]^3) + 
+ (9*G*m1*\[Kappa]2*dirac2[]*n1i[a]*n1i[j]*S2ij[-a, -b]*S2ij[i, b])/
+  (8*c^4*m2*r1[]^3) - (3*G*m1*\[Kappa]2*dirac2[a]*n1i[j]*S2ij[-a, -b]*
+   S2ij[i, b])/(10*c^4*m2*r1[]^2) - 
+ (G*m1*\[Kappa]2*dirac2[a]*n12i[j]*S2ij[-a, -b]*S2ij[i, b])/
+  (2*c^4*m2*r12[]^2) + (3*G*n2i[a]*n2i[j]*S2ij[-a, -b]*S2ij[i, b])/
+  (2*c^4*Pi*r2[]^6) - (3*G*\[Kappa]2*n2i[a]*n2i[j]*S2ij[-a, -b]*S2ij[i, b])/
+  (4*c^4*Pi*r2[]^6) - (3*G*m1*\[Kappa]2*n1i[j]*n2i[a]*S2ij[-a, -b]*
+   S2ij[i, b])/(4*c^4*m2*Pi*r1[]^2*r2[]^4) + 
+ (G*dirac2[]*n2i[a]*n2i[j]*S2ij[-a, -b]*S2ij[i, b])/(2*c^4*r2[]^3) + 
+ (9*G*\[Kappa]2*dirac2[]*n2i[a]*n2i[j]*S2ij[-a, -b]*S2ij[i, b])/
+  (8*c^4*r2[]^3) - (3*G*\[Kappa]2*dirac2[a]*n2i[j]*S2ij[-a, -b]*S2ij[i, b])/
+  (10*c^4*r2[]^2) - (G*dirac2[]*S1ij[i, a]*S2ij[j, -a])/(3*c^4*r1[]^3) - 
+ (G*dirac1[]*S1ij[i, a]*S2ij[j, -a])/(3*c^4*r2[]^3) - 
  (G*S1ij[i, a]*S2ij[j, -a])/(c^4*Pi*r1[]^3*r2[]^3) - 
+ (3*G*m1*\[Kappa]2*dirac2[]*S2ij[i, a]*S2ij[j, -a])/(4*c^4*m2*r1[]^3) - 
  (G*S2ij[i, a]*S2ij[j, -a])/(c^4*Pi*r2[]^6) - 
- (2*G*dirac2[]*S2ij[i, a]*S2ij[j, -a])/(3*c^4*r2[]^3) + 
+ (2*G*dirac2[]*S2ij[i, a]*S2ij[j, -a])/(3*c^4*r2[]^3) - 
+ (3*G*\[Kappa]2*dirac2[]*S2ij[i, a]*S2ij[j, -a])/(4*c^4*r2[]^3) + 
  (G*dirac2[]*n1i[a]*n1i[i]*S1ij[-a, b]*S2ij[j, -b])/(2*c^4*r1[]^3) + 
  (3*G*n1i[a]*n1i[i]*S1ij[-a, b]*S2ij[j, -b])/(2*c^4*Pi*r1[]^3*r2[]^3) + 
  (G*dirac2[]*n1i[a]*n1i[b]*S1ij[i, -a]*S2ij[j, -b])/(2*c^4*r1[]^3) + 
@@ -96,16 +109,19 @@
  (3*G*n1i[a]*n1i[b]*S1ij[i, -a]*S2ij[j, -b])/(2*c^4*Pi*r1[]^3*r2[]^3) + 
  (3*G*n2i[a]*n2i[b]*S1ij[i, -a]*S2ij[j, -b])/(2*c^4*Pi*r1[]^3*r2[]^3) + 
  (3*G*n2i[a]*n2i[b]*S2ij[i, -a]*S2ij[j, -b])/(4*c^4*Pi*r2[]^6) + 
- (G*dirac2[]*n2i[a]*n2i[b]*S2ij[i, -a]*S2ij[j, -b])/(c^4*r2[]^3) - 
- (3*G*m1*\[Kappa]2*dirac2[a]*n1i[i]*S2ij[-a, -b]*S2ij[j, b])/
-  (10*c^4*m2*r1[]^2) - (G*m1*\[Kappa]2*dirac2[a]*n12i[i]*S2ij[-a, -b]*
-   S2ij[j, b])/(2*c^4*m2*r12[]^2) + 
- (3*G*n2i[a]*n2i[i]*S2ij[-a, -b]*S2ij[j, b])/(2*c^4*Pi*r2[]^6) - 
- (3*G*\[Kappa]2*n2i[a]*n2i[i]*S2ij[-a, -b]*S2ij[j, b])/(4*c^4*Pi*r2[]^6) - 
- (3*G*m1*\[Kappa]2*n1i[i]*n2i[a]*S2ij[-a, -b]*S2ij[j, b])/
-  (4*c^4*m2*Pi*r1[]^2*r2[]^4) + (G*dirac2[]*n2i[a]*n2i[i]*S2ij[-a, -b]*
-   S2ij[j, b])/(2*c^4*r2[]^3) - (3*G*\[Kappa]2*dirac2[a]*n2i[i]*S2ij[-a, -b]*
-   S2ij[j, b])/(10*c^4*r2[]^2) - (G*m2*\[Kappa]1*S1ij[i, a]*S1ij[j, -a]*
+ (G*dirac2[]*n2i[a]*n2i[b]*S2ij[i, -a]*S2ij[j, -b])/(c^4*r2[]^3) + 
+ (9*G*m1*\[Kappa]2*dirac2[]*n1i[a]*n1i[i]*S2ij[-a, -b]*S2ij[j, b])/
+  (8*c^4*m2*r1[]^3) - (3*G*m1*\[Kappa]2*dirac2[a]*n1i[i]*S2ij[-a, -b]*
+   S2ij[j, b])/(10*c^4*m2*r1[]^2) - 
+ (G*m1*\[Kappa]2*dirac2[a]*n12i[i]*S2ij[-a, -b]*S2ij[j, b])/
+  (2*c^4*m2*r12[]^2) + (3*G*n2i[a]*n2i[i]*S2ij[-a, -b]*S2ij[j, b])/
+  (2*c^4*Pi*r2[]^6) - (3*G*\[Kappa]2*n2i[a]*n2i[i]*S2ij[-a, -b]*S2ij[j, b])/
+  (4*c^4*Pi*r2[]^6) - (3*G*m1*\[Kappa]2*n1i[i]*n2i[a]*S2ij[-a, -b]*
+   S2ij[j, b])/(4*c^4*m2*Pi*r1[]^2*r2[]^4) + 
+ (G*dirac2[]*n2i[a]*n2i[i]*S2ij[-a, -b]*S2ij[j, b])/(2*c^4*r2[]^3) + 
+ (9*G*\[Kappa]2*dirac2[]*n2i[a]*n2i[i]*S2ij[-a, -b]*S2ij[j, b])/
+  (8*c^4*r2[]^3) - (3*G*\[Kappa]2*dirac2[a]*n2i[i]*S2ij[-a, -b]*S2ij[j, b])/
+  (10*c^4*r2[]^2) - (G*m2*\[Kappa]1*S1ij[i, a]*S1ij[j, -a]*
    Scalar[dirac1[a]*n12i[-a]])/(2*c^4*m1*r12[]^2) + 
  (G*m1*\[Kappa]2*S2ij[i, a]*S2ij[j, -a]*Scalar[dirac2[a]*n12i[-a]])/
   (2*c^4*m2*r12[]^2) + (G*\[Kappa]1*S1ij[i, a]*S1ij[j, -a]*

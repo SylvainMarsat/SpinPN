@@ -1,5 +1,5 @@
-ParamD[t][Guard[(dirac1[]*S1ij[j, -a]*v1i[a]*v1i[i])/2]]/c^3 + 
- ParamD[t][Guard[(dirac1[]*S1ij[i, -a]*v1i[a]*v1i[j])/2]]/c^3 + 
+ParamD[t][Guard[(dirac1[]*S1ij[j, -b]*v1i[b]*v1i[i])/2]]/c^3 + 
+ ParamD[t][Guard[(dirac1[]*S1ij[i, -b]*v1i[b]*v1i[j])/2]]/c^3 + 
  (dirac1[]*S1ij[j, a]*v1i[i]*PD[-a][V1[]])/(2*c^3) + 
  (dirac1[]*S1ij[i, a]*v1i[j]*PD[-a][V1[]])/(2*c^3) - 
  (dirac1[]*S1ij[j, a]*PD[-a][Vi1[i]])/c^3 - 
