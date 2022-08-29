@@ -100,33 +100,33 @@
  (15*G*\[Delta]*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
- (135*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+ (45*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (135*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (45*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
  (15*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(128*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
  (15*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(128*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
  (15*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(4*c^6*rCM[]) + 
- (135*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+ (45*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(224*c^6*rCM[]) + 
- (615*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]])/(28*c^6*rCM[]) + 
+ (15*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(448*c^6*rCM[]) - 
- (615*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]])/(8*c^6*rCM[]) - 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(448*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]])/(8*c^6*rCM[]) + 
  (347*G*\[Nu]*Metricdelta[i, j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sci[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(1120*c^6*rCM[]) - 
  (2395*G*\[Delta]*\[Nu]*Metricdelta[i, j]*
@@ -184,38 +184,38 @@
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(32*c^6*rCM[]) + 
  (15*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (15*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (575*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/
   (112*c^6*rCM[]) - (1005*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
- (885*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+ (195*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (885*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (195*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (675*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
+ (225*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (615*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(16*c^6*rCM[]) + 
  (15*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/
-  (2*c^6*rCM[]) + (615*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+  (2*c^6*rCM[]) + (15*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
  (15*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[b]*
    nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]^2*Scalar[nCMi[a]*vCMi[-a]])/
   (8*c^6*rCM[]) + (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
@@ -459,40 +459,40 @@
    Scalar[nCMi[a]*vCMi[-a]])/(224*c^6*rCM[]) + 
  (15*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (15*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
  (1115*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
  (1425*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
- (885*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+ (195*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (885*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (195*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (675*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
+ (225*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (615*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]])/(16*c^6*rCM[]) + 
  (15*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(2*c^6*rCM[]) + 
- (615*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+ (15*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
  (3*G*\[Nu]*Metricdelta[i, j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
@@ -510,49 +510,49 @@
    Scalar[nCMi[a]*vCMi[-a]])/(7*c^6*rCM[]) - 
  (15*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (15*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
  (15*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (15*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (15*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
- (405*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+ (135*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(448*c^6*rCM[]) - 
- (375*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
+ (75*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(448*c^6*rCM[]) + 
- (195*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
+ (15*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
- (195*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*vCMi[-a]])/(8*c^6*rCM[]) - 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
+     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(8*c^6*rCM[]) - 
  (15*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(4*c^6*rCM[]) + 
  (15*G*\[Delta]*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
- (375*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+ (75*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
- (615*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]])/(14*c^6*rCM[]) - 
+ (15*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]])/(448*c^6*rCM[]) + 
- (615*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*vCMi[-a]])/(8*c^6*rCM[]) + 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(448*c^6*rCM[]) - 
+     nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(8*c^6*rCM[]) - 
  (841*G*\[Nu]*Metricdelta[i, j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sci[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]])/(480*c^6*rCM[]) - 
  (601*G*\[Delta]*\[Nu]*Metricdelta[i, j]*
@@ -641,16 +641,16 @@
    Scalar[Sci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
  (15*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (423*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) + 
+ (117*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (423*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
+ (117*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) + 
  (15*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[Sci[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
  (15*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*
@@ -658,13 +658,13 @@
    Scalar[Sci[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
  (15*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) + 
- (1389*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
+ (15*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(448*c^6*rCM[]) - 
- (1389*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(8*c^6*rCM[]) - 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(448*c^6*rCM[]) - 
+   Scalar[Sci[a]*vCMi[-a]])/(8*c^6*rCM[]) - 
  (3*G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[Sci[a]*vCMi[-a]])/(2*c^6*rCM[]) - 
  (3*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
@@ -707,40 +707,40 @@
      nCMi[b]*Sigmaci[i]]*Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
  (37*G*\[Delta]*\[Nu]*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
- (219*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
+ (33*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (219*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (33*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (219*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
+ (33*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (219*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (33*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[Sci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
  (157*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[Sci[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (3*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[Sci[a]*vCMi[-a]])/(7*c^6*rCM[]) - 
- (1359*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+ (45*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (1359*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
+ (45*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (513*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
+ (27*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (1389*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[Sci[a]*vCMi[-a]])/(16*c^6*rCM[]) + 
  (15*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[Sci[a]*vCMi[-a]])/(2*c^6*rCM[]) + 
- (1389*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+ (15*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sci[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
+   Scalar[Sci[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
  (353*G*mtot*\[Delta]*\[Nu]*Metricdelta[i, j]*Scalar[nCMi[a]*vCMi[-a]]*
    Scalar[Sci[a]*vCMi[-a]])/(504*c^5) - 
  (913*G*mtot*\[Delta]*\[Nu]^2*Metricdelta[i, j]*Scalar[nCMi[a]*vCMi[-a]]*
@@ -797,40 +797,40 @@
  (233*G*\[Delta]*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Scalar[Sigmaci[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
- (219*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
+ (33*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (219*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (33*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (219*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
+ (33*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (219*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (33*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
  (323*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[Sigmaci[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
  (93*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Scalar[Sigmaci[a]*vCMi[-a]])/(28*c^6*rCM[]) - 
- (1359*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+ (45*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (1359*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
+ (45*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (513*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(56*c^6*rCM[]) + 
+ (27*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (1389*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[Sigmaci[a]*vCMi[-a]])/(16*c^6*rCM[]) + 
  (15*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[Sigmaci[a]*vCMi[-a]])/(2*c^6*rCM[]) + 
- (1389*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+ (15*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(224*c^6*rCM[]) + 
+   Scalar[Sigmaci[a]*vCMi[-a]])/(4*c^6*rCM[]) + 
  (G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*nCMi[a]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[Sigmaci[a]*vCMi[-a]])/(2*c^6*rCM[]) - 
  (G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, j, -a]*nCMi[a]*
@@ -878,49 +878,49 @@
  (17*G*\[Kappa]minus*\[Nu]^3*Metricdelta[i, j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[Sigmaci[a]*vCMi[-a]])/(140*c^6*rCM[]) + 
- (219*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
+ (33*G*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (219*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
+ (33*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
- (219*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
+ (33*G*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) - 
- (219*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
+ (33*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(896*c^6*rCM[]) + 
+   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
  (135*G*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
  (135*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) + 
- (249*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(448*c^6*rCM[]) - 
- (687*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(448*c^6*rCM[]) + 
- (117*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
- (117*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+ (69*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
+   Scalar[Sigmaci[a]*vCMi[-a]])/(224*c^6*rCM[]) - 
+ (195*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(224*c^6*rCM[]) + 
+ (9*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(32*c^6*rCM[]) - 
+ (9*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(32*c^6*rCM[]) - 
  (15*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[Sigmaci[a]*vCMi[-a]])/(4*c^6*rCM[]) + 
  (15*G*\[Delta]*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[Sigmaci[a]*vCMi[-a]])/(4*c^6*rCM[]) - 
- (687*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*nCMi[j]*
+ (195*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(112*c^6*rCM[]) - 
- (1389*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(56*c^6*rCM[]) - 
+ (15*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(448*c^6*rCM[]) + 
- (1389*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]])/(8*c^6*rCM[]) + 
+ (15*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[Sigmaci[a]*vCMi[-a]])/(448*c^6*rCM[]) - 
+   Scalar[Sigmaci[a]*vCMi[-a]])/(8*c^6*rCM[]) - 
  (325*G*mtot*\[Nu]*Metricdelta[i, j]*Scalar[nCMi[a]*vCMi[-a]]*
    Scalar[Sigmaci[a]*vCMi[-a]])/(252*c^5) + 
  (691*G*mtot*\[Nu]^2*Metricdelta[i, j]*Scalar[nCMi[a]*vCMi[-a]]*
@@ -1007,12 +1007,12 @@
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]])/
   (7*c^6*rCM[]) - (51*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sci[b]*vCMi[i]])/(14*c^6*rCM[]) + 
- (27*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+     Sci[b]*vCMi[i]])/(14*c^6*rCM[]) - 
+ (9*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]])/
-  (56*c^6*rCM[]) - (165*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+  (14*c^6*rCM[]) - (51*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sci[b]*vCMi[i]])/(56*c^6*rCM[]) - 
+     Sci[b]*vCMi[i]])/(28*c^6*rCM[]) - 
  (185*G*\[Nu]*Metricdelta[i, j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]])/
   (168*c^6*rCM[]) + (47*G*\[Delta]*\[Nu]*Metricdelta[i, j]*
@@ -1055,16 +1055,16 @@
      Sci[b]*vCMi[i]])/(140*c^6*rCM[]) + 
  (3*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]])/
-  (8*c^6*rCM[]) + (12*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
+  (8*c^6*rCM[]) + (33*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sci[b]*vCMi[i]])/(7*c^6*rCM[]) + 
- (24*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     Sci[b]*vCMi[i]])/(56*c^6*rCM[]) + 
+ (255*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]])/
-  (7*c^6*rCM[]) + (51*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+  (56*c^6*rCM[]) + (51*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]])/
-  (7*c^6*rCM[]) + (165*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+  (7*c^6*rCM[]) + (51*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sci[b]*vCMi[i]])/(28*c^6*rCM[]) - 
+     Sci[b]*vCMi[i]])/(14*c^6*rCM[]) - 
  (159*G*\[Nu]*Metricdelta[i, j]*Scalar[epsilonMetricdelta[-a, -b, -i]*Sci[a]*
      Sci[b]*vCMi[i]])/(224*c^6*rCM[]) + 
  (571*G*\[Delta]*\[Nu]*Metricdelta[i, j]*
@@ -1143,16 +1143,16 @@
   (140*c^6*rCM[]) - (3*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sigmaci[b]*vCMi[i]])/(8*c^6*rCM[]) + 
- (12*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+ (33*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]])/
-  (7*c^6*rCM[]) + (24*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+  (56*c^6*rCM[]) + (255*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sigmaci[b]*vCMi[i]])/(7*c^6*rCM[]) + 
+     Sigmaci[b]*vCMi[i]])/(56*c^6*rCM[]) + 
  (51*G*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]])/
-  (7*c^6*rCM[]) + (165*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+  (7*c^6*rCM[]) + (51*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sigmaci[b]*vCMi[i]])/(28*c^6*rCM[]) - 
+     Sigmaci[b]*vCMi[i]])/(14*c^6*rCM[]) - 
  (3*G*\[Nu]*Metricdelta[i, j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]])/
   (16*c^6*rCM[]) - (51*G*\[Delta]*\[Nu]*Metricdelta[i, j]*
@@ -1198,20 +1198,20 @@
      Sigmaci[b]*vCMi[i]])/(28*c^6*rCM[]) - 
  (81*G*\[Delta]*\[Nu]^2*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]])/
-  (7*c^6*rCM[]) - (51*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sigmaci[b]*vCMi[i]])/(14*c^6*rCM[]) + 
- (6*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sigmaci[b]*vCMi[i]])/(7*c^6*rCM[]) + 
- (51*G*\[Delta]*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]])/
-  (14*c^6*rCM[]) - (51*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sigmaci[b]*vCMi[i]])/(8*c^6*rCM[]) + 
- (165*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+  (7*c^6*rCM[]) - (267*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sigmaci[b]*vCMi[i]])/(56*c^6*rCM[]) + 
+ (111*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     Sigmaci[b]*vCMi[i]])/(56*c^6*rCM[]) + 
+ (51*G*\[Delta]*\[Nu]^3*nCMi[i]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]])/
+  (14*c^6*rCM[]) - (3*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     Sigmaci[b]*vCMi[i]])/(c^6*rCM[]) + 
+ (51*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     Sigmaci[b]*vCMi[i]])/(28*c^6*rCM[]) + 
  (\[Nu]*Metricdelta[i, j]*Scalar[epsilonMetricdelta[-a, -b, -i]*Sci[a]*
      Sigmaci[b]*vCMi[i]])/(2*c^4*mtot) + 
  (635*G*\[Nu]*Metricdelta[i, j]*Scalar[epsilonMetricdelta[-a, -b, -i]*Sci[a]*
@@ -1261,34 +1261,34 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(1120*c^6*rCM[]) - 
  (61*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(224*c^6*rCM[]) - 
- (43*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(28*c^6*rCM[]) + 
+ (341*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(224*c^6*rCM[]) + 
  (109*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(140*c^6*rCM[]) + 
  (23*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(56*c^6*rCM[]) + 
- (2953*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (1120*c^6*rCM[]) - (13*G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(28*c^6*rCM[]) - 
+ (1469*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(560*c^6*rCM[]) - 
+ (13*G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(28*c^6*rCM[]) - 
  (2*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(3*c^6*rCM[]) + 
- (3481*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (1120*c^6*rCM[]) - (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+ (859*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(280*c^6*rCM[]) - 
+ (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(70*c^6*rCM[]) - 
- (387*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (1120*c^6*rCM[]) - (311*G*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (1120*c^6*rCM[]) + (3317*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -a]*
+ (93*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(280*c^6*rCM[]) - 
+ (311*G*\[Nu]*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(1120*c^6*rCM[]) + 
+ (3317*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
   (3360*c^6*rCM[]) + (103*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (560*c^6*rCM[]) - (4673*G*\[Delta]*\[Kappa]minus*\[Nu]*
+  (560*c^6*rCM[]) - (4643*G*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(2240*c^6*rCM[]) + 
- (4673*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+ (4643*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
   (2240*c^6*rCM[]) - (103*G*\[Delta]*\[Kappa]plus*\[Nu]*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
@@ -1299,48 +1299,49 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(7*c^6*rCM[]) - 
  (43*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (28*c^6*rCM[]) + (967*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+  (28*c^6*rCM[]) + (17*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(560*c^6*rCM[]) - 
- (7*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(c^6*rCM[]) - 
- (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(10*c^6*rCM[]) - 
+ (389*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (140*c^6*rCM[]) + (4*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
+  (56*c^6*rCM[]) - (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
+   epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(140*c^6*rCM[]) + 
+ (4*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/(3*c^6*rCM[]) + 
+ (93*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (3*c^6*rCM[]) + (387*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[a])/
-  (560*c^6*rCM[]) - (713*G*\[Nu]*epsilonMetricdelta[i, j, -a]*
+  (140*c^6*rCM[]) - (713*G*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(1120*c^6*rCM[]) - 
  (5407*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -a]*Scalar[Sci[a]*vCMi[-a]]*
    Sci[a])/(1120*c^6*rCM[]) + 
- (447*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(280*c^6*rCM[]) - 
+ (1773*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(1120*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(280*c^6*rCM[]) - 
  (17*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(280*c^6*rCM[]) - 
- (3721*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(1120*c^6*rCM[]) + 
+ (1853*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(560*c^6*rCM[]) + 
  (13*G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*Scalar[Sci[a]*vCMi[-a]]*Sci[a])/
   (28*c^6*rCM[]) + (2*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(3*c^6*rCM[]) - 
- (2889*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(1120*c^6*rCM[]) + 
+ (711*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(280*c^6*rCM[]) + 
  (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(70*c^6*rCM[]) + 
- (387*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(1120*c^6*rCM[]) - 
+ (93*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sci[a])/(280*c^6*rCM[]) - 
  (1053*G*\[Nu]*epsilonMetricdelta[i, j, -a]*Scalar[Sigmaci[a]*vCMi[-a]]*
    Sci[a])/(224*c^6*rCM[]) - 
  (865*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(672*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(35*c^6*rCM[]) + 
- (787*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(320*c^6*rCM[]) - 
- (787*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(320*c^6*rCM[]) - 
+ (5479*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(2240*c^6*rCM[]) - 
+ (5479*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(35*c^6*rCM[]) + 
  (2723*G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*Scalar[Sigmaci[a]*vCMi[-a]]*
@@ -1348,16 +1349,16 @@
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(7*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(70*c^6*rCM[]) - 
- (117*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(80*c^6*rCM[]) + 
- (227*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(28*c^6*rCM[]) + 
+ (201*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(140*c^6*rCM[]) + 
+ (451*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(56*c^6*rCM[]) + 
  (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/(140*c^6*rCM[]) - 
  (4*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*Scalar[Sigmaci[a]*vCMi[-a]]*
-   Sci[a])/(3*c^6*rCM[]) - (387*G*\[Kappa]plus*\[Nu]^3*
+   Sci[a])/(3*c^6*rCM[]) - (93*G*\[Kappa]plus*\[Nu]^3*
    epsilonMetricdelta[i, j, -a]*Scalar[Sigmaci[a]*vCMi[-a]]*Sci[a])/
-  (560*c^6*rCM[]) + (27*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+  (140*c^6*rCM[]) + (27*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Scalar[vCMi[-a]*vCMi[a]]*Sci[a])/(56*c^6*mtot) - 
  (27*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Scalar[vCMi[-a]*vCMi[a]]*Sci[a])/(56*c^6*mtot) - 
@@ -1395,18 +1396,18 @@
    nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
   (16*c^6*rCM[]) - (39*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
-  (14*c^6*rCM[]) + (123*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*
+  (14*c^6*rCM[]) + (255*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*
    nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
-  (112*c^6*rCM[]) + (99*G*\[Delta]*\[Kappa]plus*\[Nu]*
+  (224*c^6*rCM[]) + (171*G*\[Delta]*\[Kappa]plus*\[Nu]*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/(32*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/(56*c^6*rCM[]) - 
  (51*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/(28*c^6*rCM[]) - 
- (1275*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/(224*c^6*rCM[]) - 
- (87*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+ (21*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/(4*c^6*rCM[]) - 
+ (51*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
-  (224*c^6*rCM[]) - (223*G*\[Nu]*epsilonMetricdelta[i, j, -b]*
+  (56*c^6*rCM[]) - (223*G*\[Nu]*epsilonMetricdelta[i, j, -b]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
   (672*c^6*rCM[]) + (611*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -b]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
@@ -1445,25 +1446,25 @@
    nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
   (224*c^6*rCM[]) - (5*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
-  (32*c^6*rCM[]) - (447*G*\[Delta]*\[Kappa]minus*\[Nu]*
+  (32*c^6*rCM[]) - (429*G*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/(448*c^6*rCM[]) + 
- (447*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (429*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
   (448*c^6*rCM[]) + (5*G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
   (4*c^6*rCM[]) - (9*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
-  (56*c^6*rCM[]) - (297*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+  (56*c^6*rCM[]) - (243*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/(112*c^6*rCM[]) - 
- (99*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (63*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
-  (28*c^6*rCM[]) + (51*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+  (16*c^6*rCM[]) + (51*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b])/
-  (14*c^6*rCM[]) + (87*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*
+  (14*c^6*rCM[]) + (51*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*
    nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*
-   Sci[b])/(112*c^6*rCM[]) + 
+   Sci[b])/(28*c^6*rCM[]) + 
  (101*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -b]*Scalar[Sci[a]*vCMi[-a]]*
    Sci[b])/(168*c^6*rCM[]) + 
  (979*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -b]*
@@ -1485,16 +1486,16 @@
    Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(10*c^6*rCM[]) + 
  (66*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(35*c^6*rCM[]) - 
- (87*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
-   Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(112*c^6*rCM[]) + 
- (461*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   nCMi[j]*Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(224*c^6*rCM[]) - 
+ (93*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(224*c^6*rCM[]) + 
+ (95*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   nCMi[j]*Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(56*c^6*rCM[]) - 
  (25*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(14*c^6*rCM[]) + 
- (727*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
-   Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(224*c^6*rCM[]) - 
- (281*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   nCMi[j]*Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(224*c^6*rCM[]) + 
+ (121*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(56*c^6*rCM[]) - 
+ (25*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   nCMi[j]*Scalar[Sci[a]*vCMi[-a]]*Sci[b])/(28*c^6*rCM[]) + 
  (223*G*\[Nu]*epsilonMetricdelta[i, j, -b]*Scalar[Sigmaci[a]*vCMi[-a]]*
    Sci[b])/(672*c^6*rCM[]) + 
  (565*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -b]*
@@ -1534,22 +1535,22 @@
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(1120*c^6*rCM[]) + 
  (3203*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(3360*c^6*rCM[]) - 
- (635*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+ (473*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(448*c^6*rCM[]) + 
- (635*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (473*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(448*c^6*rCM[]) + 
  (167*G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(140*c^6*rCM[]) + 
  (41*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(56*c^6*rCM[]) + 
- (9*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(4*c^6*rCM[]) - 
- (713*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (171*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(112*c^6*rCM[]) - 
+ (551*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(112*c^6*rCM[]) + 
  (25*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(7*c^6*rCM[]) + 
- (281*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(112*c^6*rCM[]) - 
+ (25*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sci[b])/(14*c^6*rCM[]) - 
  (863*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*Scalar[nCMi[a]*vCMi[-a]]*
    Sci[a]*Sci[b])/(672*c^6*rCM[]) - 
  (137*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*
@@ -1572,63 +1573,63 @@
  (43*G*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(32*c^6*rCM[]) - 
  (43*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(32*c^6*rCM[]) - 
- (81*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(32*c^6*rCM[]) + 
+ (45*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (128*c^6*rCM[]) + (81*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (224*c^6*rCM[]) - (45*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(128*c^6*rCM[]) - 
- (3033*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(224*c^6*rCM[]) - 
+ (1143*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (896*c^6*rCM[]) + (3033*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (448*c^6*rCM[]) + (1143*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(896*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(448*c^6*rCM[]) - 
  (12*G*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(7*c^6*rCM[]) + 
  (111*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (56*c^6*rCM[]) + (1095*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (56*c^6*rCM[]) - (111*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(448*c^6*rCM[]) - 
- (207*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(112*c^6*rCM[]) - 
+ (45*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (224*c^6*rCM[]) + (453*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (56*c^6*rCM[]) + (111*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(448*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(112*c^6*rCM[]) - 
  (1411*G*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(560*c^6*rCM[]) + 
  (1411*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(560*c^6*rCM[]) + 
- (225*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (1053*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (112*c^6*rCM[]) - (225*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (896*c^6*rCM[]) - (1053*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(112*c^6*rCM[]) + 
- (225*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(896*c^6*rCM[]) + 
+ (1053*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (112*c^6*rCM[]) - (225*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (896*c^6*rCM[]) - (1053*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(112*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(896*c^6*rCM[]) + 
  (3881*G*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(280*c^6*rCM[]) - 
  (1319*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (112*c^6*rCM[]) - (45*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (112*c^6*rCM[]) + (45*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(56*c^6*rCM[]) + 
- (321*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(56*c^6*rCM[]) - 
+ (111*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(448*c^6*rCM[]) - 
- (1677*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(112*c^6*rCM[]) - 
+ (921*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (224*c^6*rCM[]) - (207*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (224*c^6*rCM[]) - (45*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(448*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(112*c^6*rCM[]) - 
  (111*G*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/(28*c^6*rCM[]) - 
- (453*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (111*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i])/
-  (224*c^6*rCM[]) - (149*G*mtot*\[Delta]*\[Nu]*nCMi[j]*
+  (56*c^6*rCM[]) - (149*G*mtot*\[Delta]*\[Nu]*nCMi[j]*
    Scalar[nCMi[a]*vCMi[-a]]^2*Sci[i])/(63*c^5) - 
  (487*G*mtot*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*vCMi[-a]]^2*Sci[i])/
   (126*c^5) + (55*G*mtot*\[Delta]*\[Nu]*nCMi[j]*Scalar[vCMi[-a]*vCMi[a]]*
@@ -1642,34 +1643,34 @@
      vCMi[i]]*Sci[i])/(280*c^6*rCM[]) - 
  (113*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sci[b]*vCMi[i]]*Sci[i])/(140*c^6*rCM[]) - 
- (103*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/(112*c^6*rCM[]) + 
+ (31*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/(28*c^6*rCM[]) + 
  (2*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/
   (35*c^6*rCM[]) + (G*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/
-  (280*c^6*rCM[]) - (879*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (280*c^6*rCM[]) - (387*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/
-  (560*c^6*rCM[]) - 
+  (280*c^6*rCM[]) - 
  (G*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*
      vCMi[i]]*Sci[i])/(28*c^6*rCM[]) + 
  (7*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     Sci[b]*vCMi[i]]*Sci[i])/(4*c^6*rCM[]) - 
- (9*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/(56*c^6*rCM[]) + 
- (8*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+     Sci[b]*vCMi[i]]*Sci[i])/(4*c^6*rCM[]) + 
+ (27*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/(28*c^6*rCM[]) + 
+ (17*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sci[i])/
-  (5*c^6*rCM[]) - (1011*G*\[Nu]*nCMi[j]*
+  (20*c^6*rCM[]) - (1011*G*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
   (280*c^6*rCM[]) + (9*G*\[Delta]*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
   (5*c^6*rCM[]) + (3*G*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (112*c^6*rCM[]) + (13*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (112*c^6*rCM[]) + (11*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (40*c^6*rCM[]) - (13*G*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (80*c^6*rCM[]) - (11*G*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (40*c^6*rCM[]) - (3*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (80*c^6*rCM[]) - (3*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
   (112*c^6*rCM[]) + (5261*G*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
@@ -1677,34 +1678,34 @@
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
   (4*c^6*rCM[]) - (4*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (35*c^6*rCM[]) - (493*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (35*c^6*rCM[]) + (2*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (560*c^6*rCM[]) + (2251*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (35*c^6*rCM[]) + (379*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (560*c^6*rCM[]) - (7*G*\[Nu]^3*nCMi[j]*
+  (140*c^6*rCM[]) - (7*G*\[Nu]^3*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (2*c^6*rCM[]) - (16*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*
+  (2*c^6*rCM[]) - (17*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*Sci[i])/
-  (5*c^6*rCM[]) - (7*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+  (10*c^6*rCM[]) - (7*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(10*c^6*rCM[]) - 
  (61*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(40*c^6*rCM[]) + 
- (583*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(560*c^6*rCM[]) + 
+ (1181*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(1120*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(280*c^6*rCM[]) + 
- (2859*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(1120*c^6*rCM[]) + 
+ (711*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(280*c^6*rCM[]) + 
  (G*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*
    Sci[b]*Sci[i])/(28*c^6*rCM[]) - 
  (G*\[Delta]*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(14*c^6*rCM[]) + 
- (1357*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(1120*c^6*rCM[]) - 
- (27*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(1120*c^6*rCM[]) - 
+ (41*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(35*c^6*rCM[]) - 
+ (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sci[i])/(280*c^6*rCM[]) - 
  (289*G^2*mtot^2*\[Delta]*\[Nu]*nCMi[i]*Sci[j])/(168*c^5*rCM[]) + 
  (3*G*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sci[j])/(32*c^6*rCM[]) - 
@@ -1949,10 +1950,10 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(1680*c^6*rCM[]) + 
  (103*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (560*c^6*rCM[]) - (4673*G*\[Delta]*\[Kappa]minus*\[Nu]*
+  (560*c^6*rCM[]) - (4643*G*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(2240*c^6*rCM[]) + 
- (4673*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+ (4643*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
   (2240*c^6*rCM[]) - (103*G*\[Delta]*\[Kappa]plus*\[Nu]*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
@@ -1963,60 +1964,61 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(28*c^6*rCM[]) - 
  (43*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (28*c^6*rCM[]) + (967*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+  (28*c^6*rCM[]) + (17*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(560*c^6*rCM[]) - 
- (7*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(c^6*rCM[]) - 
- (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(10*c^6*rCM[]) - 
+ (389*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (140*c^6*rCM[]) + (4*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
+  (56*c^6*rCM[]) - (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
+   epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(140*c^6*rCM[]) + 
+ (4*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(3*c^6*rCM[]) + 
+ (93*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (3*c^6*rCM[]) + (387*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (560*c^6*rCM[]) - (4673*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+  (140*c^6*rCM[]) - (4643*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
   (2240*c^6*rCM[]) + (103*G*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(560*c^6*rCM[]) - 
  (103*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (560*c^6*rCM[]) + (4673*G*\[Delta]*\[Kappa]plus*\[Nu]*
+  (560*c^6*rCM[]) + (4643*G*\[Delta]*\[Kappa]plus*\[Nu]*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(2240*c^6*rCM[]) + 
  (127*G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) + 
  (61*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (224*c^6*rCM[]) + (239*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+  (224*c^6*rCM[]) + (271*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (28*c^6*rCM[]) - (53*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+  (32*c^6*rCM[]) - (53*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(70*c^6*rCM[]) + 
  (9*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (8*c^6*rCM[]) - (4887*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
+  (8*c^6*rCM[]) - (2421*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(560*c^6*rCM[]) + 
  (13*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(28*c^6*rCM[]) + 
  (2*G*\[Delta]*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (3*c^6*rCM[]) - (851*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
+  (3*c^6*rCM[]) - (209*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (224*c^6*rCM[]) + (3*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
+  (56*c^6*rCM[]) + (3*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/
-  (70*c^6*rCM[]) + (387*G*\[Delta]*\[Kappa]plus*\[Nu]^3*
+  (70*c^6*rCM[]) + (93*G*\[Delta]*\[Kappa]plus*\[Nu]^3*
    epsilonMetricdelta[i, j, -a]*Scalar[nCMi[a]*Sigmaci[-a]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[a])/(280*c^6*rCM[]) - 
  (71*G*\[Nu]*epsilonMetricdelta[i, j, -a]*Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/
   (560*c^6*rCM[]) + (1093*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(1680*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*Scalar[Sci[a]*vCMi[-a]]*
-   Sigmaci[a])/(35*c^6*rCM[]) + (787*G*\[Delta]*\[Kappa]minus*\[Nu]*
+   Sigmaci[a])/(35*c^6*rCM[]) + (5479*G*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[i, j, -a]*Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/
-  (320*c^6*rCM[]) - (787*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(320*c^6*rCM[]) - 
+  (2240*c^6*rCM[]) - (5479*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(35*c^6*rCM[]) + 
  (14501*G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*Scalar[Sci[a]*vCMi[-a]]*
@@ -2025,46 +2027,46 @@
    Sigmaci[a])/(28*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(70*c^6*rCM[]) - 
- (117*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(80*c^6*rCM[]) + 
- (227*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(28*c^6*rCM[]) + 
+ (201*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(140*c^6*rCM[]) + 
+ (451*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(56*c^6*rCM[]) + 
  (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(140*c^6*rCM[]) - 
  (4*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*Scalar[Sci[a]*vCMi[-a]]*
    Sigmaci[a])/(3*c^6*rCM[]) - 
- (387*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(560*c^6*rCM[]) + 
- (787*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(320*c^6*rCM[]) + 
+ (93*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[a])/(140*c^6*rCM[]) + 
+ (5479*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(2240*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(35*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(35*c^6*rCM[]) - 
- (787*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(320*c^6*rCM[]) + 
+ (5479*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(2240*c^6*rCM[]) + 
  (713*G*\[Nu]^2*epsilonMetricdelta[i, j, -a]*Scalar[Sigmaci[a]*vCMi[-a]]*
    Sigmaci[a])/(1120*c^6*rCM[]) + 
  (5407*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) - 
- (2717*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(280*c^6*rCM[]) - 
+ (10793*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(56*c^6*rCM[]) + 
  (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(40*c^6*rCM[]) + 
- (5359*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) - 
+ (2657*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(560*c^6*rCM[]) - 
  (13*G*\[Nu]^3*epsilonMetricdelta[i, j, -a]*Scalar[Sigmaci[a]*vCMi[-a]]*
    Sigmaci[a])/(28*c^6*rCM[]) - 
  (2*G*\[Delta]*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(3*c^6*rCM[]) + 
- (3663*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) - 
+ (897*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(280*c^6*rCM[]) - 
  (3*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(70*c^6*rCM[]) - 
- (387*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(1120*c^6*rCM[]) + 
+ (93*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, j, -a]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[a])/(280*c^6*rCM[]) + 
  (27*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -a]*
    Scalar[Sci[a]*vCMi[-a]]*Scalar[vCMi[-a]*vCMi[a]]*Sigmaci[a])/
   (56*c^6*mtot) - (27*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -a]*
@@ -2165,25 +2167,25 @@
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
   (224*c^6*rCM[]) + (5*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
-  (32*c^6*rCM[]) - (447*G*\[Delta]*\[Kappa]minus*\[Nu]*
+  (32*c^6*rCM[]) - (429*G*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(448*c^6*rCM[]) + 
- (447*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (429*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
   (448*c^6*rCM[]) + (229*G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
   (28*c^6*rCM[]) + (9*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*
    nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*
-   Sigmaci[b])/(56*c^6*rCM[]) - (297*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+   Sigmaci[b])/(56*c^6*rCM[]) - (243*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(112*c^6*rCM[]) - 
- (99*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (63*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
-  (28*c^6*rCM[]) + (51*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+  (16*c^6*rCM[]) + (51*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
-  (14*c^6*rCM[]) + (87*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*
+  (14*c^6*rCM[]) + (51*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*
    nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*
-   Sigmaci[b])/(112*c^6*rCM[]) + 
+   Sigmaci[b])/(28*c^6*rCM[]) + 
  (1423*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -b]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
   (2240*c^6*rCM[]) - (1423*G*\[Delta]*\[Kappa]plus*\[Nu]*
@@ -2222,25 +2224,25 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(16*c^6*rCM[]) - 
  (171*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
-  (56*c^6*rCM[]) - (447*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*
+  (56*c^6*rCM[]) - (429*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*
    nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*
-   Sigmaci[b])/(448*c^6*rCM[]) + (447*G*\[Delta]*\[Kappa]plus*\[Nu]*
+   Sigmaci[b])/(448*c^6*rCM[]) + (429*G*\[Delta]*\[Kappa]plus*\[Nu]*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(448*c^6*rCM[]) + 
  (159*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
-  (56*c^6*rCM[]) + (39*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*
+  (56*c^6*rCM[]) + (627*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*
    nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*
-   Sigmaci[b])/(16*c^6*rCM[]) - (99*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
+   Sigmaci[b])/(224*c^6*rCM[]) - (99*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(224*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(112*c^6*rCM[]) + 
  (51*G*\[Delta]*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/
-  (28*c^6*rCM[]) + (1101*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, 
-    -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*
-   Sigmaci[b])/(224*c^6*rCM[]) + (87*G*\[Delta]*\[Kappa]plus*\[Nu]^3*
+  (28*c^6*rCM[]) + (24*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*
+   nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[nCMi[a]*vCMi[-a]]*
+   Sigmaci[b])/(7*c^6*rCM[]) + (51*G*\[Delta]*\[Kappa]plus*\[Nu]^3*
    epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(224*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b])/(56*c^6*rCM[]) + 
  (181*G*\[Nu]*epsilonMetricdelta[i, j, -b]*Scalar[Sci[a]*vCMi[-a]]*
    Sigmaci[b])/(672*c^6*rCM[]) - 
  (565*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, j, -b]*Scalar[Sci[a]*vCMi[-a]]*
@@ -2278,22 +2280,22 @@
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(1120*c^6*rCM[]) - 
  (3203*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(3360*c^6*rCM[]) - 
- (635*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+ (473*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(448*c^6*rCM[]) + 
- (635*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (473*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(448*c^6*rCM[]) - 
  (991*G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(280*c^6*rCM[]) - 
  (41*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(56*c^6*rCM[]) + 
- (9*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   nCMi[j]*Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(4*c^6*rCM[]) - 
- (713*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (171*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   nCMi[j]*Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(112*c^6*rCM[]) - 
+ (551*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(112*c^6*rCM[]) + 
  (25*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(7*c^6*rCM[]) + 
- (281*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
-   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(112*c^6*rCM[]) - 
+ (25*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+   Scalar[Sci[a]*vCMi[-a]]*Sigmaci[b])/(14*c^6*rCM[]) - 
  (2207*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, j, -b]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(2240*c^6*rCM[]) + 
  (2207*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, j, -b]*
@@ -2324,24 +2326,24 @@
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(10*c^6*rCM[]) + 
  (3*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(56*c^6*rCM[]) - 
- (635*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+ (473*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(448*c^6*rCM[]) + 
- (635*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+ (473*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(448*c^6*rCM[]) + 
  (G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(2*c^6*rCM[]) + 
  (33*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(20*c^6*rCM[]) + 
- (50*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(7*c^6*rCM[]) - 
- (965*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(224*c^6*rCM[]) + 
+ (1195*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(224*c^6*rCM[]) - 
+ (361*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(112*c^6*rCM[]) + 
  (25*G*\[Delta]*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
    Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(14*c^6*rCM[]) - 
- (1289*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
-   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(224*c^6*rCM[]) + 
- (281*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(224*c^6*rCM[]) - 
+ (221*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[j]*
+   Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(56*c^6*rCM[]) + 
+ (25*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   nCMi[j]*Scalar[Sigmaci[a]*vCMi[-a]]*Sigmaci[b])/(28*c^6*rCM[]) - 
  (91*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*Scalar[nCMi[a]*vCMi[-a]]*
    Sci[a]*Sigmaci[b])/(96*c^6*rCM[]) - 
  (91*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*
@@ -2368,9 +2370,9 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(1680*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(280*c^6*rCM[]) - 
- (1693*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (1663*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(2240*c^6*rCM[]) + 
- (1693*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (1663*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(280*c^6*rCM[]) + 
@@ -2380,14 +2382,14 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(168*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(140*c^6*rCM[]) + 
- (173*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(280*c^6*rCM[]) - 
- (641*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (331*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(560*c^6*rCM[]) - 
+ (635*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(112*c^6*rCM[]) + 
  (G*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*
    Sci[i]*Sigmaci[b])/(7*c^6*rCM[]) + 
- (27*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(560*c^6*rCM[]) - 
+ (3*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*Sigmaci[b])/(140*c^6*rCM[]) - 
  (679*G*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*
    Sci[j]*Sigmaci[b])/(480*c^6*rCM[]) + 
  (2593*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
@@ -2444,79 +2446,78 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(1120*c^6*rCM[]) + 
  (663*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(1120*c^6*rCM[]) + 
- (225*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (1053*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (112*c^6*rCM[]) - (225*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (896*c^6*rCM[]) - (1053*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) + 
- (225*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(896*c^6*rCM[]) + 
+ (1053*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (112*c^6*rCM[]) - (225*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (896*c^6*rCM[]) - (1053*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(896*c^6*rCM[]) - 
  (3*G*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(40*c^6*rCM[]) + 
  (161*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (16*c^6*rCM[]) - (45*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (16*c^6*rCM[]) + (45*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(56*c^6*rCM[]) + 
- (321*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(56*c^6*rCM[]) - 
+ (111*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(448*c^6*rCM[]) - 
- (1677*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) - 
+ (921*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (224*c^6*rCM[]) - (207*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (224*c^6*rCM[]) - (45*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(448*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) - 
  (111*G*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(28*c^6*rCM[]) - 
- (453*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (111*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (224*c^6*rCM[]) + (45*G*\[Nu]*nCMi[j]*
+  (56*c^6*rCM[]) + (45*G*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(28*c^6*rCM[]) - 
  (45*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (28*c^6*rCM[]) - (225*G*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (28*c^6*rCM[]) - (1053*G*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) + 
- (225*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(896*c^6*rCM[]) + 
+ (1053*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) - 
- (225*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(896*c^6*rCM[]) - 
+ (1053*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (112*c^6*rCM[]) + (225*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (896*c^6*rCM[]) + (1053*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) - 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(896*c^6*rCM[]) - 
  (1093*G*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
   (224*c^6*rCM[]) + (1021*G*\[Delta]*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(224*c^6*rCM[]) + 
- (7275*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(896*c^6*rCM[]) - 
- (153*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(896*c^6*rCM[]) + 
- (3753*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (219*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (896*c^6*rCM[]) - (525*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (56*c^6*rCM[]) + (135*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(128*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(224*c^6*rCM[]) + 
+ (783*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
+  (448*c^6*rCM[]) - (699*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(448*c^6*rCM[]) + 
  (12*G*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(7*c^6*rCM[]) - 
  (111*G*\[Delta]*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (56*c^6*rCM[]) - (27*G*\[Kappa]minus*\[Nu]^3*nCMi[j]*
+  (56*c^6*rCM[]) + (333*G*\[Kappa]minus*\[Nu]^3*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(64*c^6*rCM[]) + 
- (207*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) + 
+ (45*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sigmaci[i]]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/
-  (224*c^6*rCM[]) - (453*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[j]*
+  (56*c^6*rCM[]) - (111*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(448*c^6*rCM[]) + 
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i])/(112*c^6*rCM[]) + 
  (361*G*mtot*\[Nu]*nCMi[j]*Scalar[nCMi[a]*vCMi[-a]]^2*Sigmaci[i])/
   (1008*c^5) - (62*G*mtot*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*vCMi[-a]]^2*
    Sigmaci[i])/(9*c^5) + (25247*G*mtot*\[Nu]^3*nCMi[j]*
@@ -2536,11 +2537,11 @@
      Sci[b]*vCMi[i]]*Sigmaci[i])/(140*c^6*rCM[]) + 
  (3*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/(112*c^6*rCM[]) + 
- (13*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+ (11*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
-  (40*c^6*rCM[]) - (13*G*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (80*c^6*rCM[]) - (11*G*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
-  (40*c^6*rCM[]) - (3*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (80*c^6*rCM[]) - (3*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
   (112*c^6*rCM[]) - (13*G*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
@@ -2548,58 +2549,59 @@
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
   (14*c^6*rCM[]) - (4*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
-  (35*c^6*rCM[]) - (493*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (35*c^6*rCM[]) + (2*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
-  (560*c^6*rCM[]) + (2251*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (35*c^6*rCM[]) + (379*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
-  (560*c^6*rCM[]) - (7*G*\[Nu]^3*nCMi[j]*
+  (140*c^6*rCM[]) - (7*G*\[Nu]^3*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
-  (2*c^6*rCM[]) - (16*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*
+  (2*c^6*rCM[]) - (17*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*vCMi[i]]*Sigmaci[i])/
-  (5*c^6*rCM[]) + (3*G*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(16*c^6*rCM[]) - 
+  (10*c^6*rCM[]) + 
+ (3*G*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*
+     vCMi[i]]*Sigmaci[i])/(16*c^6*rCM[]) - 
  (171*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(112*c^6*rCM[]) + 
- (13*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(40*c^6*rCM[]) + 
+ (11*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(80*c^6*rCM[]) + 
  (3*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*
    Sigmaci[i])/(112*c^6*rCM[]) - 
  (3*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(112*c^6*rCM[]) - 
- (13*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+ (11*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*
-   Sigmaci[i])/(40*c^6*rCM[]) - 
+   Sigmaci[i])/(80*c^6*rCM[]) - 
  (41*G*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(280*c^6*rCM[]) + 
  (213*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(140*c^6*rCM[]) - 
- (31*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(10*c^6*rCM[]) - 
+ (8*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(5*c^6*rCM[]) - 
  (2*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*
    Sigmaci[i])/(35*c^6*rCM[]) + (31*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*
-   Sigmaci[i])/(280*c^6*rCM[]) + (49*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+   Sigmaci[i])/(280*c^6*rCM[]) + (53*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*
-   Sigmaci[i])/(20*c^6*rCM[]) + 
+   Sigmaci[i])/(40*c^6*rCM[]) + 
  (G*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*
      vCMi[i]]*Sigmaci[i])/(28*c^6*rCM[]) - 
  (7*G*\[Delta]*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(4*c^6*rCM[]) + 
- (941*G*\[Kappa]minus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(280*c^6*rCM[]) - 
- (8*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[j]*
+ (103*G*\[Kappa]minus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*Sigmaci[b]*vCMi[i]]*Sigmaci[i])/(140*c^6*rCM[]) - 
+ (17*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sigmaci[b]*vCMi[i]]*
-   Sigmaci[i])/(5*c^6*rCM[]) - (29*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*
+   Sigmaci[i])/(20*c^6*rCM[]) - (29*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*
    nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(28*c^6*rCM[]) + 
  (3067*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(1680*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(280*c^6*rCM[]) - 
- (1693*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (1663*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(2240*c^6*rCM[]) + 
- (1693*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (1663*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(280*c^6*rCM[]) + 
@@ -2609,14 +2611,14 @@
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(168*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(140*c^6*rCM[]) + 
- (173*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(280*c^6*rCM[]) - 
- (641*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (331*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(560*c^6*rCM[]) - 
+ (635*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(112*c^6*rCM[]) + 
  (G*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*
    Sci[b]*Sigmaci[i])/(7*c^6*rCM[]) + 
- (27*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(560*c^6*rCM[]) + 
+ (3*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sci[b]*Sigmaci[i])/(140*c^6*rCM[]) + 
  (251*G*\[Nu]*epsilonMetricdelta[j, -a, -k]*nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*
    Sci[k]*Sigmaci[i])/(1680*c^6*rCM[]) - 
  (29*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -k]*nCMi[a]*
@@ -2691,34 +2693,34 @@
    Sigmaci[b]*Sigmaci[i])/(16*c^6*rCM[]) - 
  (111*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(112*c^6*rCM[]) - 
- (1693*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (1663*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(2240*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(280*c^6*rCM[]) + 
- (1693*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+ (1663*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(2240*c^6*rCM[]) + 
  (53*G*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*
    Sigmaci[b]*Sigmaci[i])/(140*c^6*rCM[]) + 
  (71*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(140*c^6*rCM[]) + 
- (1311*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(280*c^6*rCM[]) - 
+ (5169*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(1120*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(280*c^6*rCM[]) + 
  (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(280*c^6*rCM[]) - 
- (3551*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(1120*c^6*rCM[]) - 
+ (1753*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(560*c^6*rCM[]) - 
  (G*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*Scalar[nCMi[a]*vCMi[-a]]*
    Sigmaci[b]*Sigmaci[i])/(28*c^6*rCM[]) + 
  (G*\[Delta]*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(14*c^6*rCM[]) - 
- (1411*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(1120*c^6*rCM[]) + 
- (27*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(1120*c^6*rCM[]) + 
+ (167*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(140*c^6*rCM[]) + 
+ (3*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[b]*Sigmaci[i])/(280*c^6*rCM[]) + 
  (3*G*mtot*\[Nu]*nCMi[i]*Sigmaci[j])/(2*c^3) - 
  (55*G^2*mtot^2*\[Nu]*nCMi[i]*Sigmaci[j])/(168*c^5*rCM[]) - 
  (143*G^2*mtot^2*\[Nu]^2*nCMi[i]*Sigmaci[j])/(336*c^5*rCM[]) + 
@@ -3476,20 +3478,20 @@
    Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) - 
  (1147*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) - 
- (97*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) + 
+ (163*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(1120*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) + 
- (3673*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(1120*c^6*rCM[]) + 
+ (431*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(140*c^6*rCM[]) + 
  (53*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(28*c^6*rCM[]) + 
- (3641*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(1120*c^6*rCM[]) + 
- (1493*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(1120*c^6*rCM[]) + 
+ (899*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) + 
+ (34*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[a]*vCMi[b])/(35*c^6*rCM[]) + 
  (1003*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(840*c^6*rCM[]) - 
  (247*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*
@@ -3520,9 +3522,9 @@
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(160*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) - 
- (4061*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (3611*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(2240*c^6*rCM[]) + 
- (4061*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (3611*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(280*c^6*rCM[]) + 
@@ -3532,29 +3534,29 @@
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(28*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(140*c^6*rCM[]) + 
- (537*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (627*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(560*c^6*rCM[]) - 
- (421*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(56*c^6*rCM[]) - 
+ (815*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(112*c^6*rCM[]) - 
  (53*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(14*c^6*rCM[]) - 
- (1493*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(560*c^6*rCM[]) + 
+ (68*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[a]*vCMi[b])/(35*c^6*rCM[]) + 
  (111*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/
   (140*c^6*rCM[]) + (79*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[a]*
    Sci[i]*vCMi[b])/(140*c^6*rCM[]) + 
  (3*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*
-   vCMi[b])/(560*c^6*rCM[]) + (G*\[Delta]*\[Kappa]minus*\[Nu]*
+   vCMi[b])/(160*c^6*rCM[]) + (G*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/
-  (280*c^6*rCM[]) + (2339*G*\[Delta]*\[Kappa]plus*\[Nu]*
-   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/(1120*c^6*rCM[]) - 
+  (280*c^6*rCM[]) + (83*G*\[Delta]*\[Kappa]plus*\[Nu]*
+   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/(40*c^6*rCM[]) - 
  (G*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/
   (28*c^6*rCM[]) - (G*\[Delta]*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*
    Sci[i]*vCMi[b])/(14*c^6*rCM[]) + 
- (1997*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*
-   vCMi[b])/(1120*c^6*rCM[]) - (27*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
-   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/(1120*c^6*rCM[]) - 
+ (61*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*
+   vCMi[b])/(35*c^6*rCM[]) - (3*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
+   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sci[i]*vCMi[b])/(280*c^6*rCM[]) - 
  (13*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
    Scalar[vCMi[-a]*vCMi[a]]*Sci[a]*Sci[i]*vCMi[b])/(56*c^6*mtot) + 
  (13*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
@@ -3626,9 +3628,9 @@
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(160*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) - 
- (4061*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (3611*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(2240*c^6*rCM[]) + 
- (4061*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (3611*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) + 
@@ -3638,14 +3640,14 @@
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(28*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(140*c^6*rCM[]) + 
- (537*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (627*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(560*c^6*rCM[]) - 
- (421*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(56*c^6*rCM[]) - 
+ (815*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(112*c^6*rCM[]) - 
  (53*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Sigmaci[a]*vCMi[b])/(14*c^6*rCM[]) - 
- (1493*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(560*c^6*rCM[]) - 
+ (68*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[a]*vCMi[b])/(35*c^6*rCM[]) - 
  (9*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Sigmaci[a]*vCMi[b])/(56*c^6*rCM[]) + 
  (9*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*nCMi[i]*
@@ -3680,53 +3682,52 @@
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) - 
  (3*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(c^6*rCM[]) - 
- (4061*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (3611*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(2240*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) + 
- (4061*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+ (3611*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(2240*c^6*rCM[]) + 
  (981*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(140*c^6*rCM[]) + 
- (1101*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(140*c^6*rCM[]) - 
+ (8313*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(1120*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) + 
  (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) - 
- (4747*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(1120*c^6*rCM[]) - 
+ (2351*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(560*c^6*rCM[]) - 
  (53*G*\[Delta]*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(28*c^6*rCM[]) - 
- (131*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(224*c^6*rCM[]) - 
- (1493*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(1120*c^6*rCM[]) - 
+ (71*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(56*c^6*rCM[]) - 
+ (34*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[j]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[a]*vCMi[b])/(35*c^6*rCM[]) - 
  (3*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*vCMi[b])/
   (2*c^4*mtot) - (1389*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[i]*
    Sigmaci[a]*vCMi[b])/(560*c^6*rCM[]) - 
  (53*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
    vCMi[b])/(30*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
-   vCMi[b])/(280*c^6*rCM[]) - (2333*G*\[Delta]*\[Kappa]minus*\[Nu]*
-   epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*vCMi[b])/
-  (2240*c^6*rCM[]) + (2333*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
-   Sci[i]*Sigmaci[a]*vCMi[b])/(2240*c^6*rCM[]) - 
- (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[i]*
-   Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) + 
+   vCMi[b])/(280*c^6*rCM[]) - (329*G*\[Delta]*\[Kappa]minus*\[Nu]*
+   epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*vCMi[b])/(320*c^6*rCM[]) + 
+ (329*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
+   vCMi[b])/(320*c^6*rCM[]) - (G*\[Delta]*\[Kappa]plus*\[Nu]*
+   epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) + 
  (109*G*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*vCMi[b])/
   (280*c^6*rCM[]) - (11*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*
    Sci[i]*Sigmaci[a]*vCMi[b])/(168*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
-   vCMi[b])/(140*c^6*rCM[]) + (253*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
-   epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*vCMi[b])/(280*c^6*rCM[]) - 
- (569*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
+   vCMi[b])/(140*c^6*rCM[]) + (491*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+   epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*vCMi[b])/(560*c^6*rCM[]) - 
+ (563*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
    vCMi[b])/(112*c^6*rCM[]) + (G*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sci[i]*
    Sigmaci[a]*vCMi[b])/(7*c^6*rCM[]) + 
- (27*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
-   vCMi[b])/(560*c^6*rCM[]) - (3*\[Nu]*epsilonMetricdelta[j, -a, -b]*
+ (3*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sci[i]*Sigmaci[a]*
+   vCMi[b])/(140*c^6*rCM[]) - (3*\[Nu]*epsilonMetricdelta[j, -a, -b]*
    Scalar[vCMi[-a]*vCMi[a]]*Sci[i]*Sigmaci[a]*vCMi[b])/(4*c^6*mtot) - 
  (13*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
    Scalar[vCMi[-a]*vCMi[a]]*Sci[i]*Sigmaci[a]*vCMi[b])/(56*c^6*mtot) + 
@@ -3770,23 +3771,22 @@
   (112*c^6*rCM[]) + (457*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*
    Sci[a]*Sigmaci[i]*vCMi[b])/(168*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*
-   vCMi[b])/(280*c^6*rCM[]) - (2333*G*\[Delta]*\[Kappa]minus*\[Nu]*
-   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*vCMi[b])/
-  (2240*c^6*rCM[]) + (2333*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
-   Sci[a]*Sigmaci[i]*vCMi[b])/(2240*c^6*rCM[]) - 
- (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[a]*
-   Sigmaci[i]*vCMi[b])/(280*c^6*rCM[]) - 
+   vCMi[b])/(280*c^6*rCM[]) - (329*G*\[Delta]*\[Kappa]minus*\[Nu]*
+   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*vCMi[b])/(320*c^6*rCM[]) + 
+ (329*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*
+   vCMi[b])/(320*c^6*rCM[]) - (G*\[Delta]*\[Kappa]plus*\[Nu]*
+   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*vCMi[b])/(280*c^6*rCM[]) - 
  (33*G*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*vCMi[b])/
   (40*c^6*rCM[]) + (5*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*
    Sigmaci[i]*vCMi[b])/(168*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*
-   vCMi[b])/(140*c^6*rCM[]) + (253*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
-   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*vCMi[b])/(280*c^6*rCM[]) - 
- (569*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*
+   vCMi[b])/(140*c^6*rCM[]) + (491*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+   epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*vCMi[b])/(560*c^6*rCM[]) - 
+ (563*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*
    vCMi[b])/(112*c^6*rCM[]) + (G*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sci[a]*
    Sigmaci[i]*vCMi[b])/(7*c^6*rCM[]) + 
- (27*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*
-   vCMi[b])/(560*c^6*rCM[]) - (13*\[Delta]*\[Kappa]minus*\[Nu]*
+ (3*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sci[a]*Sigmaci[i]*
+   vCMi[b])/(140*c^6*rCM[]) - (13*\[Delta]*\[Kappa]minus*\[Nu]*
    epsilonMetricdelta[j, -a, -b]*Scalar[vCMi[-a]*vCMi[a]]*Sci[a]*Sigmaci[i]*
    vCMi[b])/(56*c^6*mtot) + 
  (13*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
@@ -3798,31 +3798,31 @@
  (9*G*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*Sigmaci[i]*vCMi[b])/
   (56*c^6*rCM[]) - (9*G*\[Delta]*\[Nu]*epsilonMetricdelta[j, -a, -b]*
    Sigmaci[a]*Sigmaci[i]*vCMi[b])/(14*c^6*rCM[]) - 
- (2333*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
-   Sigmaci[i]*vCMi[b])/(2240*c^6*rCM[]) + 
+ (329*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
+   Sigmaci[i]*vCMi[b])/(320*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
    Sigmaci[i]*vCMi[b])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*Sigmaci[i]*
-   vCMi[b])/(280*c^6*rCM[]) + (2333*G*\[Delta]*\[Kappa]plus*\[Nu]*
+   vCMi[b])/(280*c^6*rCM[]) + (329*G*\[Delta]*\[Kappa]plus*\[Nu]*
    epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*Sigmaci[i]*vCMi[b])/
-  (2240*c^6*rCM[]) - (113*G*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
+  (320*c^6*rCM[]) - (113*G*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
    Sigmaci[i]*vCMi[b])/(70*c^6*rCM[]) + 
  (71*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*Sigmaci[i]*
-   vCMi[b])/(40*c^6*rCM[]) + (203*G*\[Kappa]minus*\[Nu]^2*
+   vCMi[b])/(40*c^6*rCM[]) + (5609*G*\[Kappa]minus*\[Nu]^2*
    epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*Sigmaci[i]*vCMi[b])/
-  (40*c^6*rCM[]) - (G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+  (1120*c^6*rCM[]) - (G*\[Delta]*\[Kappa]minus*\[Nu]^2*
    epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*Sigmaci[i]*vCMi[b])/
   (280*c^6*rCM[]) + (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*
    Sigmaci[a]*Sigmaci[i]*vCMi[b])/(280*c^6*rCM[]) - 
- (3351*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*
-   Sigmaci[a]*Sigmaci[i]*vCMi[b])/(1120*c^6*rCM[]) + 
+ (1653*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[j, -a, -b]*
+   Sigmaci[a]*Sigmaci[i]*vCMi[b])/(560*c^6*rCM[]) + 
  (G*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*Sigmaci[i]*vCMi[b])/
   (28*c^6*rCM[]) + (G*\[Delta]*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*
    Sigmaci[a]*Sigmaci[i]*vCMi[b])/(14*c^6*rCM[]) - 
- (293*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
-   Sigmaci[i]*vCMi[b])/(160*c^6*rCM[]) + 
- (27*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
-   Sigmaci[i]*vCMi[b])/(1120*c^6*rCM[]) - 
+ (247*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
+   Sigmaci[i]*vCMi[b])/(140*c^6*rCM[]) + 
+ (3*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[j, -a, -b]*Sigmaci[a]*
+   Sigmaci[i]*vCMi[b])/(280*c^6*rCM[]) - 
  (13*\[Kappa]minus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
    Scalar[vCMi[-a]*vCMi[a]]*Sigmaci[a]*Sigmaci[i]*vCMi[b])/(56*c^6*mtot) + 
  (13*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[j, -a, -b]*
@@ -3922,28 +3922,28 @@
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[i])/
   (56*c^6*rCM[]) - (15*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[i])/
-  (56*c^6*rCM[]) + (27*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+  (56*c^6*rCM[]) + (9*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[i])/
-  (896*c^6*rCM[]) - (27*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (112*c^6*rCM[]) - (9*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[i])/(896*c^6*rCM[]) + 
- (75*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sci[i]]*vCMi[i])/(112*c^6*rCM[]) + 
+ (15*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[i])/
-  (896*c^6*rCM[]) - (75*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (112*c^6*rCM[]) - (15*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[i])/(896*c^6*rCM[]) - 
+     nCMi[b]*Sci[i]]*vCMi[i])/(112*c^6*rCM[]) - 
  (8*G*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[i])/
   (7*c^6*rCM[]) + (57*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[i])/
   (56*c^6*rCM[]) - (15*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[i])/(448*c^6*rCM[]) - 
- (111*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sci[i]]*vCMi[i])/(112*c^6*rCM[]) - 
+ (39*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[i])/
-  (224*c^6*rCM[]) + (183*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (56*c^6*rCM[]) + (57*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[i])/(448*c^6*rCM[]) - 
+     nCMi[b]*Sci[i]]*vCMi[i])/(112*c^6*rCM[]) - 
  (899*G*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*
      Sci[i]]*vCMi[i])/(480*c^6*rCM[]) + 
  (2449*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
@@ -3958,35 +3958,35 @@
   (224*c^6*rCM[]) + (55*G*\[Delta]*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(224*c^6*rCM[]) - 
- (51*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (3*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/
-  (896*c^6*rCM[]) + (51*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (28*c^6*rCM[]) + (3*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(896*c^6*rCM[]) - 
- (51*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(28*c^6*rCM[]) - 
+ (3*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/
-  (896*c^6*rCM[]) + (51*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (28*c^6*rCM[]) + (3*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(28*c^6*rCM[]) + 
  (69*G*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(56*c^6*rCM[]) - 
  (G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(28*c^6*rCM[]) + 
- (69*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (57*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/
-  (224*c^6*rCM[]) - (99*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (112*c^6*rCM[]) - (9*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(448*c^6*rCM[]) + 
- (87*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(28*c^6*rCM[]) + 
+ (33*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/
-  (224*c^6*rCM[]) - (111*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (56*c^6*rCM[]) - (39*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(448*c^6*rCM[]) - 
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(112*c^6*rCM[]) - 
  (57*G*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/(28*c^6*rCM[]) - 
- (183*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (57*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[i])/
-  (224*c^6*rCM[]) + (1457*G*\[Nu]*nCMi[j]*
+  (56*c^6*rCM[]) + (1457*G*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[i]*Sigmaci[b]]*vCMi[i])/
   (1120*c^6*rCM[]) - (1457*G*\[Delta]*\[Nu]*nCMi[j]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[i]*Sigmaci[b]]*vCMi[i])/
@@ -4000,71 +4000,70 @@
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
   (224*c^6*rCM[]) + (5*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (224*c^6*rCM[]) - (51*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+  (224*c^6*rCM[]) - (3*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (896*c^6*rCM[]) + (51*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (28*c^6*rCM[]) + (3*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(896*c^6*rCM[]) - 
- (51*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(28*c^6*rCM[]) - 
+ (3*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (896*c^6*rCM[]) + (51*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (28*c^6*rCM[]) + (3*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(896*c^6*rCM[]) + 
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(28*c^6*rCM[]) + 
  (6*G*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
   (7*c^6*rCM[]) - (31*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (28*c^6*rCM[]) + (69*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (28*c^6*rCM[]) + (57*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(224*c^6*rCM[]) - 
- (99*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(112*c^6*rCM[]) - 
+ (9*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (448*c^6*rCM[]) + (87*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (28*c^6*rCM[]) + (33*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
+  (56*c^6*rCM[]) - (39*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(224*c^6*rCM[]) - 
- (111*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(112*c^6*rCM[]) - 
+ (57*G*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (448*c^6*rCM[]) - (57*G*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
+  (28*c^6*rCM[]) - (57*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (28*c^6*rCM[]) - (183*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(224*c^6*rCM[]) + 
- (51*G*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (896*c^6*rCM[]) - (51*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*
+  (56*c^6*rCM[]) + (3*G*\[Kappa]minus*\[Nu]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(896*c^6*rCM[]) + 
- (51*G*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(28*c^6*rCM[]) - 
+ (3*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (896*c^6*rCM[]) - (51*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*
+  (28*c^6*rCM[]) + (3*G*\[Kappa]plus*\[Nu]*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(896*c^6*rCM[]) - 
- (15*G*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(28*c^6*rCM[]) - 
+ (3*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
+  (28*c^6*rCM[]) - (15*G*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
   (56*c^6*rCM[]) + (15*G*\[Delta]*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (56*c^6*rCM[]) - (375*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
+  (56*c^6*rCM[]) - (75*G*\[Kappa]minus*\[Nu]^2*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(896*c^6*rCM[]) + 
- (249*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(112*c^6*rCM[]) + 
+ (3*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (896*c^6*rCM[]) - (351*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
+  (7*c^6*rCM[]) - (9*G*\[Kappa]plus*\[Nu]^2*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(896*c^6*rCM[]) + 
- (39*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(14*c^6*rCM[]) + 
+ (51*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (128*c^6*rCM[]) + (8*G*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+  (112*c^6*rCM[]) + (8*G*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
   (7*c^6*rCM[]) - (57*G*\[Delta]*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (56*c^6*rCM[]) + (381*G*\[Kappa]minus*\[Nu]^3*nCMi[j]*
+  (56*c^6*rCM[]) + (129*G*\[Kappa]minus*\[Nu]^3*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(448*c^6*rCM[]) + 
- (111*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(112*c^6*rCM[]) + 
+ (39*G*\[Kappa]plus*\[Nu]^3*nCMi[j]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[i])/
-  (224*c^6*rCM[]) - (183*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[j]*
+  (56*c^6*rCM[]) - (57*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[j]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[i])/(448*c^6*rCM[]) - 
+     nCMi[b]*Sigmaci[i]]*vCMi[i])/(112*c^6*rCM[]) - 
  (961*G*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*
      Sigmaci[i]]*vCMi[i])/(1680*c^6*rCM[]) - 
  (961*G*\[Delta]*\[Nu]*nCMi[j]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
@@ -4443,28 +4442,27 @@
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
   (7*c^6*rCM[]) + (9*G*\[Delta]*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
-  (7*c^6*rCM[]) + (99*G*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+  (7*c^6*rCM[]) + (9*G*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) - (99*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*
+  (56*c^6*rCM[]) - (9*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[j])/(896*c^6*rCM[]) - 
- (1629*G*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sci[i]]*vCMi[j])/(56*c^6*rCM[]) - 
+ (99*G*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) + (1629*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*
+  (56*c^6*rCM[]) + (99*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[j])/(896*c^6*rCM[]) + 
+     nCMi[b]*Sci[i]]*vCMi[j])/(56*c^6*rCM[]) + 
  (75*G*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
   (28*c^6*rCM[]) - (75*G*\[Delta]*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
-  (28*c^6*rCM[]) - (99*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[j])/(224*c^6*rCM[]) + 
- (645*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+  (28*c^6*rCM[]) - (9*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
-  (448*c^6*rCM[]) - (645*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*
+  (14*c^6*rCM[]) + (75*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*vCMi[j])/
+  (56*c^6*rCM[]) - (75*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*vCMi[j])/(448*c^6*rCM[]) + 
+     nCMi[b]*Sci[i]]*vCMi[j])/(56*c^6*rCM[]) + 
  (625*G*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*
      Sci[i]]*vCMi[j])/(224*c^6*rCM[]) + 
  (G*\[Delta]*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
@@ -4479,36 +4477,36 @@
    Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(224*c^6*rCM[]) - 
  (167*G*\[Delta]*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(224*c^6*rCM[]) + 
- (765*G*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (45*G*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/
-  (896*c^6*rCM[]) - (765*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*
+  (56*c^6*rCM[]) - (45*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(896*c^6*rCM[]) + 
- (765*G*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(56*c^6*rCM[]) + 
+ (45*G*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/
-  (896*c^6*rCM[]) - (765*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*
+  (56*c^6*rCM[]) - (45*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(896*c^6*rCM[]) - 
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(56*c^6*rCM[]) - 
  (529*G*\[Nu]^2*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(112*c^6*rCM[]) + 
  (435*G*\[Delta]*\[Nu]^2*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/
-  (112*c^6*rCM[]) - (447*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*
+  (112*c^6*rCM[]) - (39*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(896*c^6*rCM[]) + 
- (447*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(112*c^6*rCM[]) + 
+ (39*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(896*c^6*rCM[]) - 
- (3705*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(112*c^6*rCM[]) - 
+ (435*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/
-  (896*c^6*rCM[]) + (645*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*
+  (112*c^6*rCM[]) + (75*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(896*c^6*rCM[]) + 
+   Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(112*c^6*rCM[]) + 
  (75*G*\[Nu]^3*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/(14*c^6*rCM[]) + 
- (645*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+ (75*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*
      nCMi[a]*nCMi[b]*Sci[i]]*Scalar[nCMi[a]*Sigmaci[-a]]*vCMi[j])/
-  (224*c^6*rCM[]) + (G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[b]*
+  (28*c^6*rCM[]) + (G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[b]*
    Scalar[Sci[a]*Sigmaci[-a]]*vCMi[j])/(c^6*rCM[]) - 
  (G*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*nCMi[b]*
    Scalar[Sci[-a]*Sigmaci[a]]*vCMi[j])/(2*c^6*rCM[]) + 
@@ -4534,71 +4532,70 @@
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
   (224*c^6*rCM[]) - (121*G*\[Delta]*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (224*c^6*rCM[]) + (765*G*\[Kappa]minus*\[Nu]*nCMi[i]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(896*c^6*rCM[]) - 
- (765*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+  (224*c^6*rCM[]) + (45*G*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) + (765*G*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) - (765*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*
+  (56*c^6*rCM[]) - (45*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(896*c^6*rCM[]) - 
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(56*c^6*rCM[]) + 
+ (45*G*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
+  (56*c^6*rCM[]) - (45*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*
+   Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(56*c^6*rCM[]) - 
  (347*G*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
   (112*c^6*rCM[]) - (135*G*\[Delta]*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (112*c^6*rCM[]) - (447*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*
+  (112*c^6*rCM[]) - (39*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(896*c^6*rCM[]) + 
- (447*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(112*c^6*rCM[]) + 
+ (39*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) - (3705*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*
+  (112*c^6*rCM[]) - (435*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*
    Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(896*c^6*rCM[]) + 
- (645*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(112*c^6*rCM[]) + 
+ (75*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) + (75*G*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
+  (112*c^6*rCM[]) + (75*G*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (14*c^6*rCM[]) + (645*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*
-   Scalar[nCMi[a]*Sci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(224*c^6*rCM[]) - 
- (765*G*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+  (14*c^6*rCM[]) + (75*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) + (765*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*
+  (28*c^6*rCM[]) - (45*G*\[Kappa]minus*\[Nu]*nCMi[i]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(896*c^6*rCM[]) - 
- (765*G*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(56*c^6*rCM[]) + 
+ (45*G*\[Delta]*\[Kappa]minus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (896*c^6*rCM[]) + (765*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*
+  (56*c^6*rCM[]) - (45*G*\[Kappa]plus*\[Nu]*nCMi[i]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(896*c^6*rCM[]) + 
- (9*G*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(56*c^6*rCM[]) + 
+ (45*G*\[Delta]*\[Kappa]plus*\[Nu]*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
+  (56*c^6*rCM[]) + (9*G*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
   (7*c^6*rCM[]) - (9*G*\[Delta]*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (7*c^6*rCM[]) + (1803*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*
+  (7*c^6*rCM[]) + (417*G*\[Kappa]minus*\[Nu]^2*nCMi[i]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(448*c^6*rCM[]) - 
- (39*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(112*c^6*rCM[]) - 
+ (57*G*\[Delta]*\[Kappa]minus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (64*c^6*rCM[]) + (519*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*
+  (112*c^6*rCM[]) + (237*G*\[Kappa]plus*\[Nu]^2*nCMi[i]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(224*c^6*rCM[]) - 
- (519*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(112*c^6*rCM[]) - 
+ (237*G*\[Delta]*\[Kappa]plus*\[Nu]^2*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (224*c^6*rCM[]) - (75*G*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+  (112*c^6*rCM[]) - (75*G*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
   (28*c^6*rCM[]) + (75*G*\[Delta]*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (28*c^6*rCM[]) - (39*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*
+  (28*c^6*rCM[]) - (57*G*\[Kappa]minus*\[Nu]^3*nCMi[i]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(16*c^6*rCM[]) - 
- (645*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(28*c^6*rCM[]) - 
+ (75*G*\[Kappa]plus*\[Nu]^3*nCMi[i]*Scalar[nCMi[a]*Sigmaci[-a]]*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*vCMi[j])/
-  (448*c^6*rCM[]) + (645*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*
+  (56*c^6*rCM[]) + (75*G*\[Delta]*\[Kappa]plus*\[Nu]^3*nCMi[i]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*vCMi[j])/(448*c^6*rCM[]) + 
+     nCMi[b]*Sigmaci[i]]*vCMi[j])/(56*c^6*rCM[]) + 
  (67*G*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*Sci[b]*
      Sigmaci[i]]*vCMi[j])/(48*c^6*rCM[]) + 
  (67*G*\[Delta]*\[Nu]*nCMi[i]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
@@ -4647,30 +4644,30 @@
    Scalar[vCMi[-a]*vCMi[a]]*vCMi[j])/(168*c^5) - 
  (47*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(56*c^6*rCM[]) + 
- (691*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(560*c^6*rCM[]) + 
+ (1367*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(1120*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(280*c^6*rCM[]) + 
- (1053*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(1120*c^6*rCM[]) - 
+ (267*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(280*c^6*rCM[]) - 
  (23*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(28*c^6*rCM[]) - 
- (1329*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(1120*c^6*rCM[]) - 
- (417*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(1120*c^6*rCM[]) + 
+ (321*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(280*c^6*rCM[]) - 
+ (27*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sci[b]*vCMi[j])/(70*c^6*rCM[]) + 
  (359*G*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(672*c^6*rCM[]) + 
  (143*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(672*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(280*c^6*rCM[]) + 
- (47*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(320*c^6*rCM[]) - 
- (47*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(320*c^6*rCM[]) - 
+ (299*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(2240*c^6*rCM[]) - 
+ (299*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(280*c^6*rCM[]) - 
  (41*G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
@@ -4679,14 +4676,14 @@
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(28*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(140*c^6*rCM[]) - 
- (57*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(140*c^6*rCM[]) - 
- (165*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+ (213*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(560*c^6*rCM[]) - 
+ (171*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(112*c^6*rCM[]) + 
  (23*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(14*c^6*rCM[]) + 
- (417*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(560*c^6*rCM[]) - 
+ (27*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sci[b]*vCMi[j])/(35*c^6*rCM[]) - 
  (83*G*\[Nu]*epsilonMetricdelta[i, -a, -b]*Sci[a]*Sci[b]*vCMi[j])/
   (24*c^6*rCM[]) + (121*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*Sci[a]*
    Sci[b]*vCMi[j])/(56*c^6*rCM[]) - 
@@ -4697,54 +4694,52 @@
    Sci[i]*vCMi[j])/(672*c^6*rCM[]) - 
  (401*G*\[Delta]*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Sci[i]*vCMi[j])/(672*c^6*rCM[]) + 
- (797*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
- (797*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
- (53*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) + 
- (53*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
+ (7*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(80*c^6*rCM[]) - 
+ (7*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(80*c^6*rCM[]) - 
+ (229*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(2240*c^6*rCM[]) + 
+ (229*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(2240*c^6*rCM[]) - 
  (61*G*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Sci[i]*vCMi[j])/(84*c^6*rCM[]) + 
  (19*G*\[Delta]*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sci[i]]*Sci[i]*vCMi[j])/(28*c^6*rCM[]) - 
- (677*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
- (1221*G*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(2240*c^6*rCM[]) + 
- (1221*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*Sci[i]*
-   vCMi[j])/(2240*c^6*rCM[]) - 
+ (17*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(70*c^6*rCM[]) - 
+ (51*G*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(140*c^6*rCM[]) + 
+ (51*G*\[Delta]*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sci[i]]*Sci[i]*vCMi[j])/(140*c^6*rCM[]) - 
  (263*G*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Sci[i]*vCMi[j])/(560*c^6*rCM[]) + 
  (263*G*\[Delta]*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
-     Sigmaci[i]]*Sci[i]*vCMi[j])/(560*c^6*rCM[]) - 
- (93*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
- (93*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
- (93*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
- (93*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
+     Sigmaci[i]]*Sci[i]*vCMi[j])/(560*c^6*rCM[]) + 
+ (33*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
+ (33*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) + 
+ (33*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
+ (33*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(4480*c^6*rCM[]) + 
  (29*G*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Sci[i]*vCMi[j])/(21*c^6*rCM[]) + 
  (1039*G*\[Delta]*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(336*c^6*rCM[]) + 
- (563*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(896*c^6*rCM[]) - 
- (515*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*
-   vCMi[j])/(896*c^6*rCM[]) + (2469*G*\[Kappa]plus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*
-   vCMi[j])/(4480*c^6*rCM[]) - (1221*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*
-   vCMi[j])/(4480*c^6*rCM[]) - 
+ (5*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(14*c^6*rCM[]) - 
+ (17*G*\[Delta]*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(56*c^6*rCM[]) + 
+ (111*G*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
+ (51*G*\[Delta]*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(280*c^6*rCM[]) - 
  (19*G*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Sci[i]*vCMi[j])/(14*c^6*rCM[]) - 
- (1221*G*\[Kappa]plus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
+ (51*G*\[Kappa]plus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sci[i]*vCMi[j])/(70*c^6*rCM[]) + 
  (2045*G*mtot*\[Delta]*\[Nu]*Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*vCMi[j])/
   (504*c^5) + (160*G*mtot*\[Delta]*\[Nu]^2*Scalar[nCMi[a]*vCMi[-a]]*Sci[i]*
    vCMi[j])/(63*c^5) + (3*\[Delta]*\[Nu]*rCM[]*Scalar[nCMi[a]*vCMi[-a]]*
@@ -4799,10 +4794,10 @@
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(672*c^6*rCM[]) + 
  (G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(280*c^6*rCM[]) + 
- (47*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(320*c^6*rCM[]) - 
- (47*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(320*c^6*rCM[]) - 
+ (299*G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(2240*c^6*rCM[]) - 
+ (299*G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(2240*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(280*c^6*rCM[]) + 
  (311*G*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*Scalar[nCMi[a]*Sci[-a]]*
@@ -4811,38 +4806,38 @@
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(28*c^6*rCM[]) - 
  (G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(140*c^6*rCM[]) - 
- (57*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(140*c^6*rCM[]) - 
- (165*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+ (213*G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(560*c^6*rCM[]) - 
+ (171*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(112*c^6*rCM[]) + 
  (23*G*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*Scalar[nCMi[a]*Sci[-a]]*
    Sigmaci[b]*vCMi[j])/(14*c^6*rCM[]) + 
- (417*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(560*c^6*rCM[]) + 
- (47*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(320*c^6*rCM[]) + 
+ (27*G*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sci[-a]]*Sigmaci[b]*vCMi[j])/(35*c^6*rCM[]) + 
+ (299*G*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(2240*c^6*rCM[]) + 
  (G*\[Delta]*\[Kappa]minus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(280*c^6*rCM[]) - 
  (G*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(280*c^6*rCM[]) - 
- (47*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(320*c^6*rCM[]) + 
+ (299*G*\[Delta]*\[Kappa]plus*\[Nu]*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(2240*c^6*rCM[]) + 
  (3*G*\[Delta]*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(56*c^6*rCM[]) + 
- (67*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(280*c^6*rCM[]) - 
+ (49*G*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(160*c^6*rCM[]) - 
  (G*\[Delta]*\[Kappa]minus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(280*c^6*rCM[]) + 
  (3*G*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(280*c^6*rCM[]) - 
- (597*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(1120*c^6*rCM[]) + 
+ (321*G*\[Delta]*\[Kappa]plus*\[Nu]^2*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(560*c^6*rCM[]) + 
  (23*G*\[Delta]*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
    Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(28*c^6*rCM[]) + 
- (99*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(224*c^6*rCM[]) + 
- (417*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
-   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(1120*c^6*rCM[]) - 
+ (3*G*\[Kappa]minus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(8*c^6*rCM[]) + 
+ (27*G*\[Delta]*\[Kappa]plus*\[Nu]^3*epsilonMetricdelta[i, -a, -b]*nCMi[a]*
+   Scalar[nCMi[a]*Sigmaci[-a]]*Sigmaci[b]*vCMi[j])/(70*c^6*rCM[]) - 
  (109*G*\[Nu]*epsilonMetricdelta[i, -a, -b]*Sci[a]*Sigmaci[b]*vCMi[j])/
   (168*c^6*rCM[]) - (109*G*\[Delta]*\[Nu]*epsilonMetricdelta[i, -a, -b]*
    Sci[a]*Sigmaci[b]*vCMi[j])/(168*c^6*rCM[]) - 
@@ -4861,65 +4856,62 @@
  (61*G*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Sigmaci[i]*vCMi[j])/(480*c^6*rCM[]) + 
  (61*G*\[Delta]*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
-     Sci[i]]*Sigmaci[i]*vCMi[j])/(480*c^6*rCM[]) - 
- (93*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
- (93*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
- (93*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
- (93*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
+     Sci[i]]*Sigmaci[i]*vCMi[j])/(480*c^6*rCM[]) + 
+ (33*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
+ (33*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) + 
+ (33*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
+ (33*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) + 
  (355*G*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Sigmaci[i]*vCMi[j])/(168*c^6*rCM[]) - 
  (1283*G*\[Delta]*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(336*c^6*rCM[]) + 
- (563*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(896*c^6*rCM[]) - 
- (515*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*
-   vCMi[j])/(896*c^6*rCM[]) + (2469*G*\[Kappa]plus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*
-   vCMi[j])/(4480*c^6*rCM[]) - (1221*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*
-   vCMi[j])/(4480*c^6*rCM[]) - 
+ (5*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(14*c^6*rCM[]) - 
+ (17*G*\[Delta]*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(56*c^6*rCM[]) + 
+ (111*G*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
+ (51*G*\[Delta]*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(280*c^6*rCM[]) - 
  (19*G*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sci[i]]*
    Sigmaci[i]*vCMi[j])/(14*c^6*rCM[]) - 
- (1221*G*\[Kappa]plus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
- (93*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
- (93*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
- (93*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
- (93*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
-     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) - 
+ (51*G*\[Kappa]plus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sci[i]]*Sigmaci[i]*vCMi[j])/(70*c^6*rCM[]) - 
+ (33*G*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) + 
+ (33*G*\[Delta]*\[Kappa]minus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
+ (33*G*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) + 
+ (33*G*\[Delta]*\[Kappa]plus*\[Nu]*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(4480*c^6*rCM[]) - 
  (257*G*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(672*c^6*rCM[]) + 
  (545*G*\[Delta]*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(672*c^6*rCM[]) - 
- (1633*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(2240*c^6*rCM[]) + 
- (1009*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
+ (209*G*\[Kappa]minus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(1120*c^6*rCM[]) + 
+ (151*G*\[Delta]*\[Kappa]minus*\[Nu]^2*
    Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Sigmaci[i]*vCMi[j])/(2240*c^6*rCM[]) - 
- (1381*G*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+   Sigmaci[i]*vCMi[j])/(560*c^6*rCM[]) - 
+ (571*G*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
      nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(2240*c^6*rCM[]) + 
- (1261*G*\[Delta]*\[Kappa]plus*\[Nu]^2*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Sigmaci[i]*vCMi[j])/(2240*c^6*rCM[]) + 
+ (451*G*\[Delta]*\[Kappa]plus*\[Nu]^2*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(2240*c^6*rCM[]) + 
  (61*G*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(84*c^6*rCM[]) - 
  (19*G*\[Delta]*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*
      Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(28*c^6*rCM[]) + 
- (949*G*\[Kappa]minus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(560*c^6*rCM[]) + 
- (1221*G*\[Kappa]plus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
-     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(2240*c^6*rCM[]) - 
- (1221*G*\[Delta]*\[Kappa]plus*\[Nu]^3*
-   Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*nCMi[b]*Sigmaci[i]]*
-   Sigmaci[i]*vCMi[j])/(2240*c^6*rCM[]) + 
+ (34*G*\[Kappa]minus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(35*c^6*rCM[]) + 
+ (51*G*\[Kappa]plus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*nCMi[a]*
+     nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(140*c^6*rCM[]) - 
+ (51*G*\[Delta]*\[Kappa]plus*\[Nu]^3*Scalar[epsilonMetricdelta[-a, -b, -i]*
+     nCMi[a]*nCMi[b]*Sigmaci[i]]*Sigmaci[i]*vCMi[j])/(140*c^6*rCM[]) + 
  (361*G*mtot*\[Nu]*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i]*vCMi[j])/(252*c^5) - 
  (15707*G*mtot*\[Nu]^2*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i]*vCMi[j])/
   (1008*c^5) - (5837*G*mtot*\[Nu]^3*Scalar[nCMi[a]*vCMi[-a]]*Sigmaci[i]*
