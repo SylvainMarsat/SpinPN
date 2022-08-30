@@ -70,8 +70,8 @@
  ((4*I)*Sqrt[Pi/5]*\[Nu]^2*Sigmacl[]^3*x[]^4)/(c^2*E^(I*\[Phi][])*G^2*mtot^5*
    R) - ((2*I)*Sqrt[Pi/5]*\[Kappa]plus*\[Nu]^2*Sigmacl[]^3*x[]^4)/
   (c^2*E^(I*\[Phi][])*G^2*mtot^5*R) - 
- (212*Sqrt[Pi/5]*\[Delta]*\[Nu]*Scl[]*x[]^(9/2))/
-  (21*c^2*E^(I*\[Phi][])*mtot*R) - 
+ (724*Sqrt[Pi/5]*\[Delta]*\[Nu]*Scl[]*x[]^(9/2))/
+  (105*c^2*E^(I*\[Phi][])*mtot*R) - 
  (((344*I)/21)*Pi^(3/2)*\[Delta]*\[Nu]*Scl[]*x[]^(9/2))/
   (Sqrt[5]*c^2*E^(I*\[Phi][])*mtot*R) - 
  (688*Sqrt[Pi/5]*\[Delta]*\[Nu]*Log[2]*Scl[]*x[]^(9/2))/
@@ -80,15 +80,15 @@
   (21*c^2*E^(I*\[Phi][])*mtot*R) + 
  (((164*I)/21)*Sqrt[Pi/5]*\[Delta]*\[Nu]*Scl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((361*I)/84)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]*Scl[]^2*x[]^(9/2))/
+ (((23*I)/6)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]*Scl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((11*I)/84)*Sqrt[5*Pi]*\[Delta]*\[Kappa]plus*\[Nu]*Scl[]^2*x[]^(9/2))/
+ (((47*I)/42)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]*Scl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
  (((8*I)/7)*Sqrt[Pi/5]*\[Delta]*\[Nu]^2*Scl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
- (((6077*I)/252)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]^2*Scl[]^2*x[]^(9/2))/
-  (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((39*I)/28)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]^2*Scl[]^2*x[]^(9/2))/
+ (((191*I)/9)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]^2*Scl[]^2*x[]^(9/2))/
+  (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
+ (((4*I)/7)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]^2*Scl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
  (158*Sqrt[Pi/5]*\[Nu]*Sigmacl[]*x[]^(9/2))/(21*c^2*E^(I*\[Phi][])*mtot*R) - 
  (((316*I)/21)*Pi^(3/2)*\[Nu]*Sigmacl[]*x[]^(9/2))/
@@ -106,35 +106,35 @@
   (21*c^2*E^(I*\[Phi][])*mtot*R) - 
  (((232*I)/21)*Sqrt[Pi/5]*\[Nu]*Scl[]*Sigmacl[]*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((51*I)/14)*Sqrt[Pi/5]*\[Delta]*\[Kappa]minus*\[Nu]*Scl[]*Sigmacl[]*
+ (((19*I)/7)*Sqrt[Pi/5]*\[Delta]*\[Kappa]minus*\[Nu]*Scl[]*Sigmacl[]*
    x[]^(9/2))/(c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
- (((51*I)/14)*Sqrt[Pi/5]*\[Kappa]plus*\[Nu]*Scl[]*Sigmacl[]*x[]^(9/2))/
+ (((19*I)/7)*Sqrt[Pi/5]*\[Kappa]plus*\[Nu]*Scl[]*Sigmacl[]*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
  (((160*I)/21)*Sqrt[5*Pi]*\[Nu]^2*Scl[]*Sigmacl[]*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
- (((1607*I)/63)*Sqrt[Pi/5]*\[Delta]*\[Kappa]minus*\[Nu]^2*Scl[]*Sigmacl[]*
+ (((1301*I)/63)*Sqrt[Pi/5]*\[Delta]*\[Kappa]minus*\[Nu]^2*Scl[]*Sigmacl[]*
    x[]^(9/2))/(c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((206*I)/9)*Sqrt[Pi/5]*\[Kappa]plus*\[Nu]^2*Scl[]*Sigmacl[]*x[]^(9/2))/
+ (((1019*I)/63)*Sqrt[Pi/5]*\[Kappa]plus*\[Nu]^2*Scl[]*Sigmacl[]*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
  (((32*I)/7)*Sqrt[Pi/5]*\[Nu]^3*Scl[]*Sigmacl[]*x[]^(9/2))/
-  (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
- (((39*I)/7)*Sqrt[Pi/5]*\[Kappa]plus*\[Nu]^3*Scl[]*Sigmacl[]*x[]^(9/2))/
+  (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
+ (((16*I)/7)*Sqrt[Pi/5]*\[Kappa]plus*\[Nu]^3*Scl[]*Sigmacl[]*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
  (((48*I)/7)*Sqrt[Pi/5]*\[Delta]*\[Nu]*Sigmacl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((51*I)/28)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]*Sigmacl[]^2*x[]^(9/2))/
+ (((19*I)/14)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]*Sigmacl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
- (((51*I)/28)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]*Sigmacl[]^2*x[]^(9/2))/
+ (((19*I)/14)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]*Sigmacl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
  (((472*I)/21)*Sqrt[Pi/5]*\[Delta]*\[Nu]^2*Sigmacl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
- (((3967*I)/252)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]^2*Sigmacl[]^2*x[]^(9/2))/
+ (((751*I)/63)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]^2*Sigmacl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((3049*I)/252)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]^2*Sigmacl[]^2*
+ (((116*I)/63)*Sqrt[5*Pi]*\[Delta]*\[Kappa]plus*\[Nu]^2*Sigmacl[]^2*
    x[]^(9/2))/(c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
  (((8*I)/7)*Sqrt[Pi/5]*\[Delta]*\[Nu]^3*Sigmacl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
- (((6779*I)/252)*Sqrt[Pi/5]*\[Kappa]minus*\[Nu]^3*Sigmacl[]^2*x[]^(9/2))/
-  (c^2*E^(I*\[Phi][])*G*mtot^3*R) - 
- (((39*I)/28)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]^3*Sigmacl[]^2*x[]^(9/2))/
+ (((253*I)/63)*Sqrt[5*Pi]*\[Kappa]minus*\[Nu]^3*Sigmacl[]^2*x[]^(9/2))/
+  (c^2*E^(I*\[Phi][])*G*mtot^3*R) + 
+ (((4*I)/7)*Sqrt[Pi/5]*\[Delta]*\[Kappa]plus*\[Nu]^3*Sigmacl[]^2*x[]^(9/2))/
   (c^2*E^(I*\[Phi][])*G*mtot^3*R)
